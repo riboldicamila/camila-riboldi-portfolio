@@ -4,9 +4,6 @@
   background-color: #333;
   color: #fff;
   padding: 20px 0;
-  height: 200px; /* Double the height of the screen */
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 
