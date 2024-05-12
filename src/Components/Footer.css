@@ -1,0 +1,42 @@
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  height: 200px; /* Double the height of the screen */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info p,
+.back-to-top a {
+  margin: 5px 0;
+}
+
+.contact-info p {
+  font-size: 14px;
+}
+
+.back-to-top a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.back-to-top a:hover {
+  text-decoration: underline;
+}
+
+.empty-middle {
+  flex-grow: 1; /* Fill the empty space in the middle */
+}

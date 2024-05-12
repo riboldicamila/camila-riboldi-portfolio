@@ -1,13 +1,9 @@
-import React from 'react'
+import React from "react";
 
 //project links, explain tech used in each
 
 function MyWork() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div>Working...</div>;
 }
 
-export default MyWork
+export default MyWork;

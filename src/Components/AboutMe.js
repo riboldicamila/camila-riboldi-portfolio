@@ -1,13 +1,9 @@
-import React from 'react'
+import React from "react";
 
 //life, cv, courses
 
 function AboutMe() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div>ME!</div>;
 }
 
-export default AboutMe
+export default AboutMe;
