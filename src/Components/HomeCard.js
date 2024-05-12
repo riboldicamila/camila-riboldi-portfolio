@@ -5,10 +5,12 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 
+import "./HomeCard.css";
+
 function HomeCard({ image, title, text }) {
   return (
     <div>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 345 }} className="home-card">
         <CardActionArea>
           <CardMedia
             component="img"
