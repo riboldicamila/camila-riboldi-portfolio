@@ -16,9 +16,10 @@ function Home() {
         <h2>Worldwide. As for today, based in Buenos Aires, Argentina.</h2>
         <p>
           I'm all about crafting user-friendly experiences and giving software
-          development a holistic spin. While I mostly geek out over front-end
-          stuff, I've dabbled in backend and databases too. I enjoy teamwork,
-          and I dig using Agile methods like Scrum to get things done.
+          development a holistic spin. <br /> While I mostly geek out over
+          front-end stuff, I've dabbled in backend and databases too. <br /> I
+          enjoy teamwork, and I dig using Agile methods like Scrum to get things
+          done.
         </p>
       </div>
     </div>
