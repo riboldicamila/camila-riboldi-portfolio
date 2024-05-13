@@ -5,7 +5,7 @@ import Home from "./Components/Home/Home"; // Import your Home component (and so
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import AboutMe from "./Components/AboutMe";
-import MyWork from "./Components/MyWork";
+import MyWork from "./Components/MyWork/MyWork";
 
 import "./App.css";
 

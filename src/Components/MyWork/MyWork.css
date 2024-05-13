@@ -1,0 +1,37 @@
+.my-work-tab .banner {
+  background-color: rgb(54, 51, 51);
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.my-work-tab .banner h2 {
+  margin: 0;
+}
+
+.my-work-tab .card-block {
+  margin: 25px;
+}
+
+.my-work-tab .knowledge-cards {
+  background-color: rgb(173, 180, 173);
+  padding: 70px;
+}
+
+.home-card-container {
+  display: grid;
+  gap: 20px;
+}
+
+.home-card {
+  width: 100%;
+}
+
+.my-work-card-container {
+  width: 100%;
+  margin-bottom: 20px; /* Add spacing between cards */
+}
+
+.my-work-card {
+  width: 100%;
+}
