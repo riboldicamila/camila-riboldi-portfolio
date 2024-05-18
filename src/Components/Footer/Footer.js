@@ -8,11 +8,11 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="contact-info">
-          <p>Contact me at: example@email.com</p>
+          <p>Contact me at: cami.riboldi@gmail.com</p>
           <p>
             <Link to="https://www.linkedin.com">LinkedIn</Link>
           </p>
-          <p>© 2024 Your Name. All Rights Reserved.</p>
+          <p>© 2024 Camila Riboldi. All Rights Reserved.</p>
         </div>
         <div className="empty-middle"></div>
         <div className="back-to-top">

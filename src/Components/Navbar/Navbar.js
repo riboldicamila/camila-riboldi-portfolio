@@ -15,7 +15,7 @@ function Navbar() {
           <Link to="/" className="nav-link">
             Home
           </Link>
-          <Link to="/about-me" className="nav-link">
+          <Link to="/about-me" className="nav-link animate__pulse">
             About Me
           </Link>
           <Link to="/my-work" className="nav-link">
