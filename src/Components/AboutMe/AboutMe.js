@@ -1,6 +1,6 @@
 import React from "react";
-import HomeCard from "./HomeCard";
-import "./AboutMe.css"; 
+import HomeCard from "../Home/HomeCard";
+import "./AboutMe.css";
 
 import university from "./uba-photo.jpg";
 import languages from "./languages-photo.jpg";
@@ -8,7 +8,7 @@ import courses from "./courses-photo.jpg";
 
 function AboutMe() {
   return (
-    <div className="card-container"> 
+    <div className="card-container">
       <HomeCard
         image={university}
         title="Bachelors Degree"
@@ -19,10 +19,10 @@ function AboutMe() {
         title="Courses and Trainnings"
         text="bkakabakabka"
       />
-      <HomeCard 
-        image={courses} 
+      <HomeCard
+        image={courses}
         title="Languages for Communication"
-        text="bkakabakabka" 
+        text="bkakabakabka"
       />
     </div>
   );

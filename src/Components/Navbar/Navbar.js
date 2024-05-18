@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./Logo.png";
+import Logo from "./nav-logo.png";
 import "./Navbar.css";
+import PrimaryButton from "../Button/PrimaryButton";
 
 function Navbar() {
   return (
@@ -20,14 +21,12 @@ function Navbar() {
           <Link to="/my-work" className="nav-link">
             Work
           </Link>
-          <a
+        </div>
+        <div>
+          <PrimaryButton
             href="https://www.linkedin.com/in/camila-riboldi/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-button"
-          >
-            Linkedin
-          </a>
+            text="Linkedin"
+          />
         </div>
       </nav>
     </div>

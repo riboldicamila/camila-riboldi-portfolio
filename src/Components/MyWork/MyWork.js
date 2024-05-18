@@ -2,7 +2,7 @@ import React from "react";
 import "./MyWork.css";
 import MyWorkCard from "./MyWorkCard";
 
-import university from "../uba-photo.jpg";
+import university from "../AboutMe/uba-photo.jpg";
 import TextCard from "./TextCard";
 
 function MyWork() {
