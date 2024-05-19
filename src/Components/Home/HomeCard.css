@@ -1,4 +1,5 @@
 .home-card {
-  width: 350px;
-  height: 400px !important;
+  width: 800px !important;
+  height: 600px !important;
+  padding: 10px;
 }

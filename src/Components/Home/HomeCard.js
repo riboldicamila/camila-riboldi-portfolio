@@ -12,16 +12,16 @@ function HomeCard({ image, title, text }) {
     <div>
       <Card sx={{ maxWidth: 345 }} className="home-card">
         <CardActionArea>
-          <CardMedia
-            component="img"
-            height="140"
-            image={image}
-            alt="green iguana"
-          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {title}
             </Typography>
+            <CardMedia
+              component="img"
+              height="140"
+              image={image}
+              alt="green iguana"
+            />
             <Typography variant="body2" color="text.secondary">
               {text}
             </Typography>
