@@ -5,22 +5,44 @@ import "./AboutMe.css";
 import university from "./uba-photo.jpg";
 import languages from "./languages-photo.jpg";
 import courses from "./courses-photo.jpg";
+import universitycarousel from "./uba-carousel-photo.jpg";
+import uicarousel from "./ux.jpg";
 
 import CarouselPhotos from "../Carrosel/CarouselPhotos";
 
 function AboutMe() {
   const items = [
     {
-      src: languages,
+      src: universitycarousel,
       altText: "Image 1 description",
+      text: "trial hello",
     },
     {
-      src: courses,
+      src: uicarousel,
       altText: "Image 1 description",
+      text: "trial hello",
     },
     {
-      children: <h2>Slide 2 Title</h2>,
+      src: uicarousel,
+      altText: "Image 1 description",
+      text: "trial hello",
     },
+  ];
+
+  const coursesText = [
+    "Advanced React - Coursera by Meta",
+    "React Js 35hs - Coderhouse",
+    "Web Development | html-css-saas 38hs - Coderhouse",
+    "UX Design: From Concept to Prototype - University of Michigan",
+    "Technical Support Fundamentals - Coursera",
+    "Marketing Fundamentals 30hs - Capacitarte",
+    "Coding Bootcamp: OOP Fundamentals based on TDD (test driven development)",
+  ];
+
+  const languagues = [
+    "Native Spanish Speaker",
+    "English C1 Level: IGCSE and TOFLC Exam ",
+    "Begginer level in Portuguese",
   ];
 
   return (
@@ -39,20 +61,13 @@ function AboutMe() {
         <HomeCard
           image={languages}
           title="Courses and Trainnings"
-          text="
-        Advanced React - Coursera by Meta
-        React Js 35hs - Coderhouse
-        Web Development | html-css-saas 38hs - Coderhouse
-        UX Design: From Concept to Prototype - University of Michigan
-        Technical Support Fundamentals - Coursera
-        Marketing Fundamentals 30hs - Capacitarte
-        Coding Bootcamp: OOP Fundamentals based on TDD (test driven development)"
+          text={coursesText}
           className="trainning-card"
         />
         <HomeCard
           image={courses}
           title="Languages for Communication"
-          text="bkakabakabka"
+          text={languagues}
         />
       </div>
     </>

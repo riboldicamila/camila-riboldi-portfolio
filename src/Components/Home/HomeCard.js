@@ -25,7 +25,15 @@ function HomeCard({ image, title, text, className }) {
               alt="green iguana"
             />
             <Typography variant="body2" color="text.secondary">
-              {text}
+              {Array.isArray(text) ? (
+                <ul>
+                  {text.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              ) : (
+                text
+              )}
             </Typography>
           </CardContent>
         </CardActionArea>
