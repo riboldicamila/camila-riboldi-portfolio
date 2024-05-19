@@ -6,20 +6,40 @@ import university from "./uba-photo.jpg";
 import languages from "./languages-photo.jpg";
 import courses from "./courses-photo.jpg";
 
+import CarouselPhotos from "../Carrosel/CarouselPhotos";
+
 function AboutMe() {
+  const items = [
+    {
+      src: languages,
+      altText: "Image 1 description",
+    },
+    {
+      src: courses,
+      altText: "Image 1 description",
+    },
+    {
+      children: <h2>Slide 2 Title</h2>,
+    },
+  ];
+
   return (
-    <div className="card-container">
-      <HomeCard
-        image={university}
-        title="Bachelor in Information Systems | 5 ½ years program"
-        text="The Bachelor in Information Systems program is a comprehensive journey merging business management with technological innovation. 
+    <>
+      <div>
+        <CarouselPhotos items={items} />
+      </div>
+      <div className="card-container">
+        <HomeCard
+          image={university}
+          title="Bachelor in Information Systems | 5 ½ years program"
+          text="The Bachelor in Information Systems program is a comprehensive journey merging business management with technological innovation. 
         The curriculum is divided into distinct phases. The initial two years focus on economics, finance, and management principles, providing a holistic understanding of the business landscape.
         Later stages emphasize Information Technology (IT) management. Learning about IT strategy, project management, and programming foundations."
-      />
-      <HomeCard
-        image={languages}
-        title="Courses and Trainnings"
-        text="
+        />
+        <HomeCard
+          image={languages}
+          title="Courses and Trainnings"
+          text="
         Advanced React - Coursera by Meta
         React Js 35hs - Coderhouse
         Web Development | html-css-saas 38hs - Coderhouse
@@ -27,13 +47,15 @@ function AboutMe() {
         Technical Support Fundamentals - Coursera
         Marketing Fundamentals 30hs - Capacitarte
         Coding Bootcamp: OOP Fundamentals based on TDD (test driven development)"
-      />
-      <HomeCard
-        image={courses}
-        title="Languages for Communication"
-        text="bkakabakabka"
-      />
-    </div>
+          className="trainning-card"
+        />
+        <HomeCard
+          image={courses}
+          title="Languages for Communication"
+          text="bkakabakabka"
+        />
+      </div>
+    </>
   );
 }
 

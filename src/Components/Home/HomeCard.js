@@ -7,10 +7,12 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 import "./HomeCard.css";
 
-function HomeCard({ image, title, text }) {
+function HomeCard({ image, title, text, className }) {
+  const classNameDefine = `home-card${className ? ` ${className}` : ""}`;
+
   return (
     <div>
-      <Card sx={{ maxWidth: 345 }} className="home-card">
+      <Card sx={{ maxWidth: 345 }} className={classNameDefine}>
         <CardActionArea>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
