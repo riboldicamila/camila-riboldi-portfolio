@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Home.css";
-import homePicture from "./home-picture-2.jpg";
+import homePicture from "./home-picture-7.jpg";
 import git from "./git.png";
 import html from "./html.png";
 import scrum from "./scrum.png";
@@ -16,7 +16,7 @@ function Home() {
     <div className="home">
       <div className="image-with-text-overlay">
         <img src={homePicture} alt="Background" className="background-image" />
-        <div className="text-overlay">
+        <div className="text-overlay animate__animated animate__fadeInLeft">
           <h2>New creations, new challenges.</h2>
         </div>
       </div>
@@ -32,7 +32,7 @@ function Home() {
 
         <PrimaryButton href="none" className="home-btn" text="Know More" />
       </div>
-      <div className="banner-2">
+      <div className="banner-technologies">
         <img src={scrum} alt="Background" className="icon-image" />
         <img src={git} alt="Background" className="icon-image" />
         <img src={css} alt="Background" className="icon-image" />

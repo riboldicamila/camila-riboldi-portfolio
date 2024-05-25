@@ -11,6 +11,8 @@ function PrimaryButton({ href, className, text }) {
         target="_blank"
         rel="noopener noreferrer"
         className={classNameDefine}
+        aria-label="Check my profile!"
+        data-balloon-pos="up"
       >
         {text}
       </a>

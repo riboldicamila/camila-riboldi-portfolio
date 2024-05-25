@@ -2,6 +2,15 @@
   background-color: #f5f5f5;
   border-bottom: 3px solid #4f3838;
   padding: 10px 20px;
+  transition: transform 0.8s ease;
+}
+
+.navbar-slide-up {
+  transform: translateY(-100%);
+}
+
+.navbar-slide-down {
+  transform: translateY(0);
 }
 
 .navbar-container {
@@ -26,10 +35,16 @@
   align-items: center;
   margin-right: 150px;
 }
-
 .nav-link {
   margin-right: 20px;
   text-decoration: none;
   color: #333333;
   font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.nav-link:hover {
+  border-bottom-color: yellow;
+  transform: scale(1.1);
 }
