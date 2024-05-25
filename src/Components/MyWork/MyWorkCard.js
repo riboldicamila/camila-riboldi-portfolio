@@ -10,7 +10,7 @@ import "./MyWork.css";
 function MyWorkCard({ image, title, text }) {
   return (
     <div className="home-card-container">
-      <Card sx={{ width: "100%" }} className="home-card">
+      <Card style={{ width: "100%" }} className="home-card">
         <CardActionArea style={{ display: "flex" }}>
           <CardMedia
             component="img"
