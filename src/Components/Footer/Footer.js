@@ -26,8 +26,8 @@ export default function Footer() {
           <h2>MENU:</h2>
           <div className="decorative-icons">
             <IconWithText text={<Link to="/">Home</Link>} />
-            <IconWithText text={<Link to="/about">About Me</Link>} />
-            <IconWithText text={<Link to="/work">Work</Link>} />
+            <IconWithText text={<Link to="/about-me">About Me</Link>} />
+            <IconWithText text={<Link to="/my-work">Work</Link>} />
           </div>
         </div>
         <div>
