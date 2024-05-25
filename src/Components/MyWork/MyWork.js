@@ -49,7 +49,7 @@ function MyWork() {
       <div className="card-block">
         <MyWorkCard
           image={swissMedia}
-          title="SwissMedia HTML || CSS"
+          title="SwissMedia HTML || CSS || BOOTSTRAP"
           text="In this project, you'll find a website created with HTML and CSS, featuring experiments with Sass, Flexbox, and general frontend concepts.
           To develop this site, I started with wireframes and thoughtfully designed the layout of each tab and page. The final product is deployed and available at GitHub Pages.
           The project uses several libraries and technologies, including:
@@ -63,13 +63,17 @@ function MyWork() {
         />
         <MyWorkCard
           image={swissMedia}
-          title="SwissMedia"
-          text="dfjsljkgljdsjhds"
-        />
-        <MyWorkCard
-          image={swissMedia}
-          title="SwissMedia"
-          text="dfjsljkgljdsjhds"
+          title="My portfolio REACT JS | MUI "
+          text="In this project, you'll find a website created with HTML and CSS, featuring experiments with Sass, Flexbox, and general frontend concepts.
+          To develop this site, I started with wireframes and thoughtfully designed the layout of each tab and page. The final product is deployed and available at GitHub Pages.
+          The project uses several libraries and technologies, including:
+          HTML
+          CSS
+          Sass
+          Bootstrap
+          Google Fonts
+          Animate.css
+          Explore the various features and styles incorporated in this project!"
         />
       </div>
     </div>

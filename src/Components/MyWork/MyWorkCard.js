@@ -14,7 +14,7 @@ function MyWorkCard({ image, title, text }) {
         <CardActionArea style={{ display: "flex" }}>
           <CardMedia
             component="img"
-            height="140"
+            height="300"
             image={image}
             alt="green iguana"
           />
@@ -25,13 +25,13 @@ function MyWorkCard({ image, title, text }) {
             <Typography variant="body2" color="text.secondary">
               {text}
             </Typography>
+            <CardActions>
+              <Button size="small" color="primary">
+                Find more
+              </Button>
+            </CardActions>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-          <Button size="small" color="primary">
-            Find more
-          </Button>
-        </CardActions>
       </Card>
     </div>
   );
