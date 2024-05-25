@@ -35,3 +35,7 @@
 .my-work-card {
   width: 100%;
 }
+
+.my-work-tab .banner {
+  height: 100px;
+}
