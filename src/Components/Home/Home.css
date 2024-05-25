@@ -29,6 +29,15 @@
   border-bottom-color: yellow;
 }
 
+.picture-overlay {
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 .banner {
   background-color: #272727;
   padding: 80px;
