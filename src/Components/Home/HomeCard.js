@@ -8,7 +8,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 import "./HomeCard.css";
 
 function HomeCard({ image, title, text, className }) {
-  const classNameDefine = `home-card${className ? ` ${className}` : ""}`;
+  const classNameDefine = `home-card-about-me${className ? ` ${className}` : ""}`;
 
   return (
     <div>
