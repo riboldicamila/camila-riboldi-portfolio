@@ -7,7 +7,12 @@ const IconWithText = ({ text }) => {
   return (
     <Box display="flex" alignItems="center">
       <ArrowForwardIosIcon />
-      <Typography variant="body1" marginLeft={1}>
+      <Typography variant="body1" marginLeft={1} sx={{
+          transition: 'transform 0.3s ease-in-out',
+          '&:hover': {
+            transform: 'translateX(10px)',
+          },
+        }}>
         {text}
       </Typography>
     </Box>

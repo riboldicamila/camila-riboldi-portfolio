@@ -14,7 +14,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  border-top: 2px solid #3a3a3a ;
+  border-top: 2px solid #3a3a3a;
 }
 
 .contact-info p,
@@ -61,6 +61,9 @@
   color: #b0b0b0;
   padding: 10px 0;
   font-size: 12px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .footer a {
@@ -74,4 +77,9 @@
 
 .decorative-icons {
   margin-left: 5px;
+}
+
+.footer-bottom.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
