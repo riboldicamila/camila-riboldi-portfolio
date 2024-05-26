@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import "./Home.css";
 import homePicture from "./home-picture-7.jpg";
@@ -13,7 +13,16 @@ import react from "./react+.png";
 
 import PrimaryButton from "../Button/PrimaryButton";
 
+import useIntersectionObserver from "@react-hook/intersection-observer";
+
 function Home() {
+  const bannerRef = useRef(null);
+  const { isIntersecting } = useIntersectionObserver(bannerRef, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.8,
+  });
+
   return (
     <div className="home">
       <div className="image-with-text-overlay">
@@ -22,7 +31,11 @@ function Home() {
           <h2>New creations, new challenges.</h2>
         </div>
         <div>
-        <img src={profilePicture} alt="Background" className="picture-overlay" />
+          <img
+            src={profilePicture}
+            alt="Background"
+            className="picture-overlay"
+          />
         </div>
       </div>
       <div className="banner">
@@ -37,7 +50,10 @@ function Home() {
 
         <PrimaryButton href="none" className="home-btn" text="Know More" />
       </div>
-      <div className="banner-technologies">
+      <div
+        className={`banner-technologies ${isIntersecting ? "" : "hidden"}`}
+        ref={bannerRef}
+      >
         <img src={scrum} alt="Background" className="icon-image" />
         <img src={git} alt="Background" className="icon-image" />
         <img src={css} alt="Background" className="icon-image" />
