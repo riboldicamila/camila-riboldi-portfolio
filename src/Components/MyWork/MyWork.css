@@ -3,18 +3,34 @@
   color: #fff;
   text-align: center;
   padding: 50px 0;
+  background-image: url("../MyWork/my-work-2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  height: 200px;
+  border-bottom: none;
 }
 
 .my-work-tab .banner h2 {
   margin: 0;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .my-work-tab .card-block {
-  margin: 25px;
+  padding: 30px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9;
 }
 
 .my-work-tab .knowledge-cards {
-  background-color: rgb(173, 180, 173);
+  background-color: rgb(130 171 154 / 69%);
   padding: 70px;
 }
 
@@ -32,9 +48,5 @@
 
 .my-work-card-container {
   width: 100%;
-  margin-bottom: 20px; /* Add spacing between cards */
-}
-
-.my-work-tab .banner {
-  height: 100px;
+  margin-bottom: 20px;
 }
