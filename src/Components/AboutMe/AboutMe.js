@@ -5,27 +5,26 @@ import "./AboutMe.css";
 import university from "./uba-photo.jpg";
 import languages from "./languages-photo.jpg";
 import courses from "./courses-photo.jpg";
-import universitycarousel from "./uba-carousel-photo.jpg";
-import uicarousel from "./ux.jpg";
+import carrousel1 from "./web1.jpg";
+import carrousel2 from "./web2.jpg";
+import carrousel3 from "./web3.jpg";
 
 import CarouselPhotos from "../Carrosel/CarouselPhotos";
+import AnimatedLine from "../AnimatedLine/AnimatedLine";
 
 function AboutMe() {
   const items = [
     {
-      src: universitycarousel,
+      src: carrousel1,
       altText: "Image 1 description",
-      text: "trial hello",
     },
     {
-      src: uicarousel,
+      src: carrousel2,
       altText: "Image 1 description",
-      text: "trial hello",
     },
     {
-      src: uicarousel,
+      src: carrousel3,
       altText: "Image 1 description",
-      text: "trial hello",
     },
   ];
 
@@ -43,32 +42,42 @@ function AboutMe() {
     "Native Spanish Speaker",
     "English C1 Level: IGCSE and TOFLC Exam ",
     "Begginer level in Portuguese",
+    "Native Spanish Speaker",
+    "English C1 Level: IGCSE and TOFLC Exam ",
+    "Begginer level in Portuguese",
+    "Native Spanish Speaker",
+    "English C1 Level: IGCSE and TOFLC Exam ",
+    "Begginer level in Portuguese",
   ];
 
   return (
     <>
-      <div>
-        <CarouselPhotos items={items} />
-      </div>
-      <div className="card-container">
-        <HomeCard
-          image={university}
-          title="Bachelor in Information Systems | 5 ½ years program"
-          text="The Bachelor in Information Systems program is a comprehensive journey merging business management with technological innovation. 
+      <AnimatedLine />
+      <div className="about-me-container">
+        <h2 className="about-me-title"> GET TO KNOW ME</h2>
+        <div className="card-container">
+          <HomeCard
+            image={university}
+            title="Bachelor in Information Systems"
+            text="The Bachelor in Information Systems program ( 5 ½ years program) is a comprehensive journey merging business management with technological innovation. 
         The curriculum is divided into distinct phases. The initial two years focus on economics, finance, and management principles, providing a holistic understanding of the business landscape.
         Later stages emphasize Information Technology (IT) management. Learning about IT strategy, project management, and programming foundations."
-        />
-        <HomeCard
-          image={languages}
-          title="Courses and Trainnings"
-          text={coursesText}
-          className="trainning-card"
-        />
-        <HomeCard
-          image={courses}
-          title="Languages for Communication"
-          text={languagues}
-        />
+          />
+          <HomeCard
+            image={languages}
+            title="Courses and Trainnings"
+            text={coursesText}
+            className="trainning-card"
+          />
+          <HomeCard
+            image={courses}
+            title="Languages for Communication"
+            text={languagues}
+          />
+        </div>
+      </div>
+      <div>
+        <CarouselPhotos items={items} />
       </div>
     </>
   );

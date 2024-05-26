@@ -8,7 +8,9 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 import "./HomeCard.css";
 
 function HomeCard({ image, title, text, className }) {
-  const classNameDefine = `home-card-about-me${className ? ` ${className}` : ""}`;
+  const classNameDefine = `home-card-about-me${
+    className ? ` ${className}` : ""
+  }`;
 
   return (
     <div>
@@ -20,9 +22,10 @@ function HomeCard({ image, title, text, className }) {
             </Typography>
             <CardMedia
               component="img"
-              height="140"
+              height="200"
               image={image}
               alt="green iguana"
+              sx={{ marginTop: "15px", marginBottom: "20px" }}
             />
             <Typography variant="body2" color="text.secondary">
               {Array.isArray(text) ? (
