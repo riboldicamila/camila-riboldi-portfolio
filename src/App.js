@@ -11,33 +11,31 @@ import "./App.css";
 import "animate.css/animate.min.css";
 import "balloon-css";
 
-
 function App() {
   const isMobile = window.innerWidth < 768;
 
   function isPageUnderConstruction() {
-    const underConstructionRoutes = ["/my-work"]; 
-    const currentRoute = window.location.pathname; 
-    
+    const underConstructionRoutes = [""];
+    const currentRoute = window.location.pathname;
+
     return underConstructionRoutes.includes(currentRoute);
   }
-  
 
   if (isMobile || isPageUnderConstruction()) {
-    return <WorkInProgress />;
+    return <WorkInProgress text="Check it out in computer screen size!" />;
   }
 
   return (
     <div>
       <Router>
-      <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/my-work" element={<MyWork />} />
         </Routes>
-      <Footer />
-    </Router>
+        <Footer />
+      </Router>
     </div>
   );
 }
