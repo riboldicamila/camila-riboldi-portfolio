@@ -39,7 +39,7 @@ function Home() {
         </div>
       </div>
       <div className="banner">
-        <h2>Worldwide. As for today, based in Buenos Aires, Argentina.</h2>
+        <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>
         <p>
           I'm all about crafting user-friendly experiences and giving software
           development a holistic spin. <br /> While I mostly geek out over

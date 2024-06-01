@@ -3,6 +3,7 @@
   /* border-bottom: 3px solid #4f3838; */
   padding: 10px 20px;
   transition: transform 0.8s ease;
+  min-height: 100px;
 }
 
 .navbar-slide-up {
@@ -21,13 +22,11 @@
   align-items: center;
 }
 
-.navbar-logo {
-  margin-right: 20px;
-}
-
 .logo-image {
-  width: 300px;
-  height: auto;
+  width: auto;
+  margin-top: 2px;
+  height: 75px;
+  margin-left: 55px;
 }
 
 .navbar-links {

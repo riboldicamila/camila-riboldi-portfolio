@@ -1,5 +1,5 @@
 * {
-  font-family: "Lato", "Roboto", sans-serif !important;
+  font-family: "DM Sans", sans-serif !important;
 }
 
 .about-me-container {
@@ -8,8 +8,9 @@
   align-items: center;
   padding: 100px;
   padding-top: 60px;
-  background-color:rgb(130 171 154 / 69%);
-
+  background-image: url("background-about-me.jpg");
+  background-size: cover; 
+  background-position: center; 
 }
 
 .about-me-title {

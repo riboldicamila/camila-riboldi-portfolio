@@ -30,7 +30,7 @@
 }
 
 .my-work-tab .knowledge-cards {
-  background-color: rgb(130 171 154 / 69%);
+  background-image: linear-gradient(to bottom, rgba(130, 171, 154, 0.69), rgba(130, 171, 154, 1));
   padding: 70px;
 }
 
