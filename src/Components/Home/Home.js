@@ -41,11 +41,11 @@ function Home() {
       <div className="banner">
         <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>
         <p>
-          I'm all about crafting user-friendly experiences and giving software
-          development a holistic spin. <br /> While I mostly geek out over
-          front-end stuff, I've dabbled in backend and databases too. <br /> I
-          enjoy teamwork, and I dig using Agile methods like Scrum to get things
-          done.
+          I'm a software developer with a focus on frontend, curious about UX
+          and UI. <br /> I have some knowledge of backend and databases, and I
+          hold a bachelor's degree  <br /> in Information Systems. I enjoy teamwork and
+          am committed to creating <br /> user-friendly experiences while   continuously
+          learning and expanding my skills.
         </p>
 
         <PrimaryButton href="none" className="home-btn" text="Know More" />

@@ -39,22 +39,14 @@ function AboutMe() {
   ];
 
   const languagues = [
-    "Native Spanish Speaker",
-    "English C1 Level: IGCSE and TOFLC Exam ",
-    "Begginer level in Portuguese",
-    "Native Spanish Speaker",
-    "English C1 Level: IGCSE and TOFLC Exam ",
-    "Begginer level in Portuguese",
-    "Native Spanish Speaker",
-    "English C1 Level: IGCSE and TOFLC Exam ",
-    "Begginer level in Portuguese",
+    "I am an Argentinean native Spanish speaker. My second language is English, with a C1 proficiency level certified by the IGCSE and TOEFL exams. Also, I look forward to improving my Portuguese, which is currently at a beginner level.",
   ];
 
   return (
     <>
       <AnimatedLine />
       <div className="about-me-container">
-        <h2 className="about-me-title"> GET TO KNOW ME</h2>
+        <h2 className="about-me-title"> Get to know me</h2>
         <div className="card-container">
           <HomeCard
             image={university}

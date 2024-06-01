@@ -29,7 +29,7 @@ function HomeCard({ image, title, text, className }) {
             />
             <Typography variant="body2" color="text.secondary">
               {Array.isArray(text) ? (
-                <ul>
+                <ul className="no-bullets">
                   {text.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
