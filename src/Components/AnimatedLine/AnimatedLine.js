@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from 'react';
-import gsap from 'gsap';
+import React, { useRef, useEffect } from "react";
+import gsap from "gsap";
 
 const AnimatedLine = () => {
   const lineRef = useRef(null);
@@ -8,25 +8,47 @@ const AnimatedLine = () => {
   useEffect(() => {
     const line = lineRef.current;
     const text = textRef.current;
+    const screenWidth = window.innerWidth;
+
+    // Get the actual width of the line element
+    const lineWidth = line.getBoundingClientRect().width;
+    const textWidth = text.getBoundingClientRect().width;
 
     gsap.fromTo(
       line,
-      { x: '-100%' },
-      { x: '100%', ease: 'none', repeat: -1, duration: 20 }
+      { x: -lineWidth },
+      { x: screenWidth, ease: "none", repeat: -1, duration: 20 }
     );
 
-    gsap.to(text, {
-      x: () => line.getBoundingClientRect().width,
-      ease: 'none',
-      repeat: -1,
-      duration: 20,
-    });
+    gsap.fromTo(
+      text,
+      { x: -textWidth },
+      { x: screenWidth, ease: "none", repeat: -1, duration: 20 }
+    );
   }, []);
 
   return (
-    <div style={{ position: 'relative', height: '10px' }}>
-      <div ref={lineRef} style={{ height: '10px', backgroundColor: 'black' }} />
-      <div ref={textRef} style={{ position: 'absolute', top: '-20px', whiteSpace: 'nowrap' }}>
+    <div
+      style={{
+        position: "relative",
+        overflow: "hidden",
+        width: "100%",
+        height: "30px",
+      }}
+    >
+      <div
+        ref={lineRef}
+        style={{
+          position: "absolute",
+          height: "10px",
+          width: "100%",
+          backgroundColor: "black",
+        }}
+      />
+      <div
+        ref={textRef}
+        style={{ position: "absolute", top: "10px", whiteSpace: "nowrap" }}
+      >
         Welcome, let's create!
       </div>
     </div>

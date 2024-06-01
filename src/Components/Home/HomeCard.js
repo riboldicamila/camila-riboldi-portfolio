@@ -12,6 +12,10 @@ function HomeCard({ image, title, text, className }) {
     className ? ` ${className}` : ""
   }`;
 
+  const handleFindMoreClick = () => {
+    window.location.href = "https://www.linkedin.com/in/camila-riboldi";
+  };
+
   return (
     <div>
       <Card sx={{ maxWidth: 345 }} className={classNameDefine}>
@@ -41,7 +45,7 @@ function HomeCard({ image, title, text, className }) {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" onClick={handleFindMoreClick}>
             Find more
           </Button>
         </CardActions>
