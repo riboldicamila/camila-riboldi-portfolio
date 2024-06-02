@@ -55,7 +55,7 @@ function Home() {
         className={`banner-technologies ${isIntersecting ? "" : "hidden"}`}
         ref={bannerRef}
       >
-        <div className="home-carrousel">
+        <div className={`home-carrousel ${isIntersecting ? "show" : "hidden"}`}>
           <img src={scrum} alt="Background" className="icon-image" />
           <img src={git} alt="Background" className="icon-image" />
           <img src={css} alt="Background" className="icon-image" />

@@ -1,4 +1,4 @@
-.home{
+.home {
   overflow: hidden;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .image-with-text-overlay:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .background-image {
@@ -100,4 +100,13 @@
 .hidden {
   transform: translateY(-10%);
   transition: transform 0.5s ease-in-out;
+}
+
+.home-carrousel {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.show {
+  opacity: 1;
 }
