@@ -13,8 +13,10 @@ import "./MyWork.css";
 
 function MyWork() {
   return (
-
-    <WorkInProgress />
+    <WorkInProgress
+      text={
+        "Stay tuned, in the next iterations, some tabs such as 'Work' will be added, and responsiveness will be improved."}
+    />
     // <div className="my-work-tab">
     //   <div className="banner">
     //     <h2>Check out some of my work!</h2>
