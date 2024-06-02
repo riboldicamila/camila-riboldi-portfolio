@@ -1,3 +1,7 @@
+.home{
+  overflow: hidden;
+}
+
 .image-with-text-overlay {
   position: relative;
   width: 100%;
