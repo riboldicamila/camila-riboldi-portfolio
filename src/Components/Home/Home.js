@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import "./Home.css";
 import homePicture from "./home-picture-7.jpg";
-import profilePicture from "./profile-picture.png";
+import profilePicture from "./my_photo.png";
 
 import git from "./git.png";
 import html from "./html.png";
