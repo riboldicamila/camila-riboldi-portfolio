@@ -39,7 +39,7 @@ function AboutMe() {
   ];
 
   const languagues = [
-    "I am an Argentinean native Spanish speaker. My second language is English, with a C1 proficiency level certified by the IGCSE and TOEFL exams. Also, I look forward to improving my Portuguese, which is currently at a beginner level.",
+    "I am an Argentinean native Spanish speaker.", "My second language is English, with a C1 proficiency level certified by the IGCSE and TOEFL exams.", "Also, I look forward to improving my Portuguese, which is currently at a beginner level.",
   ];
 
   return (

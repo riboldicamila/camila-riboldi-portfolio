@@ -2,15 +2,22 @@
   max-width: 450px !important;
   padding: 20px;
   border-radius: 2 !important;
-  background-color:#f5f2f2f2 !important;
+  background-color: #f5f2f2f2 !important;
   font-family: "DM Sans", sans-serif !important;
   width: 30vw;
   height: 600px;
   display: flex;
   flex-direction: column;
   padding: 5px !important;
-  transition: transform 0.15s ease, scale 0.3s ease;
+  transition: transform 0.20s ease, scale 0.8s ease;
+  
 }
+
+.home-card-about-me:hover {
+  transform: scale(1.02);
+  scale: 1.02; /* Add this line to animate the scale property */
+}
+
 
 .home-card-about-me .MuiCardActionArea {
   height: 100%;
@@ -34,10 +41,6 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-}
-
-.home-card-about-me:hover {
-  transform: scale(1.05);
 }
 
 .no-bullets {
