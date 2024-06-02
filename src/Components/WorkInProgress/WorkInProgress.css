@@ -1,3 +1,16 @@
-.in-progress{
-    min-height: 400px;
+.in-progress {
+  min-height: 500px;
+  background-color: #000000b5;
+}
+
+.in-progress h2 {
+  color: white;
+}
+
+.in-progress p {
+  color: white;
+}
+
+.line-in-progress {
+  margin-top: 10px;
 }
