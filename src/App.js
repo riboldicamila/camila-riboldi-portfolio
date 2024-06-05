@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
@@ -12,7 +17,7 @@ import "animate.css/animate.min.css";
 import "balloon-css";
 
 function App() {
-  const isMobile = window.innerWidth < 768;
+  const isMobile = window.innerWidth < 1100;
 
   function isPageUnderConstruction() {
     const underConstructionRoutes = [""];
