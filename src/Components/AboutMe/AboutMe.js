@@ -11,6 +11,7 @@ import carrousel3 from "./web3.jpg";
 
 import CarouselPhotos from "../Carrosel/CarouselPhotos";
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
+import ImageWithText from "./ImageWithText";
 
 function AboutMe() {
   const items = [
@@ -39,7 +40,7 @@ function AboutMe() {
   ];
 
   const languagues = [
-    "I am an Argentinean native Spanish speaker.", "My second language is English, with a C1 proficiency level certified by the IGCSE and TOEFL exams.", "Also, I look forward to improving my Portuguese, which is currently at a beginner level.",
+    "I am an Argentinean native Spanish speaker. My second language is English, with a C1 proficiency level certified by the IGCSE and TOEFL exams. Also, I look forward to improving my Portuguese, which is currently at a beginner level.",
   ];
 
   return (
@@ -68,8 +69,11 @@ function AboutMe() {
           />
         </div>
       </div>
-      <div>
-        <CarouselPhotos items={items} />
+      <div className="image-container">
+        <ImageWithText image={carrousel1} text={"Plan"} />
+        <ImageWithText image={carrousel2} text={"Code"} />
+        <ImageWithText image={carrousel3} text={"Refine"} />
+        {/* <CarouselPhotos items={items} /> */}
       </div>
     </>
   );

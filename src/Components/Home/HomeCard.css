@@ -10,7 +10,14 @@
   flex-direction: column;
   padding: 5px !important;
   transition: transform 0.20s ease, scale 0.8s ease;
+  text-align: justify;
+
   
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .home-card-about-me:hover {
@@ -41,9 +48,4 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-}
-
-.no-bullets {
-  list-style-type: none;
-  padding-left: 0;
 }

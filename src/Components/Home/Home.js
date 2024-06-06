@@ -31,13 +31,13 @@ function Home() {
         <div className="text-overlay animate__animated animate__fadeInLeft">
           <h2>New creations, new challenges.</h2>
         </div>
-        <div>
+        {/* <div>
           <img
             src={profilePicture}
             alt="Background"
             className="picture-overlay"
           />
-        </div>
+        </div> */}
       </div>
       <div className="banner">
         <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>
