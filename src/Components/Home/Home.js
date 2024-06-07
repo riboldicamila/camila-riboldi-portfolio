@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 
-import "./Home.css";
 import homePicture from "./home-picture-7.jpg";
 
 import git from "./git.png";
@@ -9,10 +8,14 @@ import scrum from "./scrum.png";
 import css from "./CSS-Logo.png";
 import js from "./JavaScript.png";
 import react from "./react+.png";
+import python from "./python.png";
+import sql from "./sql.png";
 
 import PrimaryButton from "../Button/PrimaryButton";
 
 import useIntersectionObserver from "@react-hook/intersection-observer";
+
+import "./Home.css";
 
 function Home() {
   const bannerRef = useRef(null);
@@ -27,7 +30,8 @@ function Home() {
       <div className="image-with-text-overlay">
         <img src={homePicture} alt="Background" className="background-image" />
         <div className="text-overlay animate__animated animate__fadeInLeft">
-          <h2>New creations, new challenges.</h2>
+          <h2>Developing with a holistic view.</h2>
+          <h3>Get to know my journey</h3>
         </div>
         {/* <div>
           <img
@@ -40,8 +44,11 @@ function Home() {
       <div className="banner">
         <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>
         <p>
-        I'm a <span className="yellow-underline">software developer with a focus on frontend</span>, curious
-        about UX and UI. <br />  I have some knowledge of backend and
+          I'm a{" "}
+          <span className="yellow-underline">
+            software developer with a focus on frontend
+          </span>
+          , curious about UX and UI. <br /> I have some knowledge of backend and
           databases, and I hold a bachelor's degree <br /> in Information
           Systems. I enjoy teamwork and am committed to creating <br />{" "}
           user-friendly experiences while continuously learning and expanding my
@@ -61,6 +68,18 @@ function Home() {
           <img src={html} alt="Background" className="icon-image" />
           <img src={js} alt="Background" className="icon-image" />
           <img src={react} alt="Background" className="icon-image" />
+          <img
+            src={python}
+            alt="Background"
+            className="icon-image"
+            style={{ marginLeft: "20px" }}
+          />
+          <img
+            src={sql}
+            alt="Background"
+            className="icon-image"
+            style={{ marginLeft: "40px" }}
+          />
         </div>
       </div>
     </div>
