@@ -55,7 +55,7 @@
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   height: 400px;
-  border-bottom: 2px solid #daca23;
+  /* border-bottom: 2px solid #daca23; */
 }
 
 .banner-technologies {
@@ -109,4 +109,9 @@
 
 .show {
   opacity: 1;
+}
+
+.yellow-underline {
+  border-bottom: 1px solid rgb(150, 150, 18);
+  line-height: 1;
 }
