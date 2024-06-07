@@ -48,7 +48,9 @@ function AboutMe() {
       <AnimatedLine />
       <div className="about-me-container">
         <h2 className="about-me-title"> Get to know me</h2>
-        <div className="card-container">
+      </div>
+
+      <div className="card-container">
           <HomeCard
             image={university}
             title="Bachelor in Information Systems"
@@ -68,7 +70,6 @@ function AboutMe() {
             text={languagues}
           />
         </div>
-      </div>
       <div className="image-container">
         <ImageWithText image={carrousel1} text={"Plan"} />
         <ImageWithText image={carrousel2} text={"Code"} />

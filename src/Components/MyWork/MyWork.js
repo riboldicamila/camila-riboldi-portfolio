@@ -63,12 +63,12 @@ function MyWork() {
           text="In this project, you'll find a website created with HTML and CSS, featuring experiments with Sass, Flexbox, and general frontend concepts.
           To develop this site, I started with wireframes and thoughtfully designed the layout of each tab and page. The final product is deployed and available at GitHub Pages.
           The project uses several libraries and technologies, including:
-          HTML
-          CSS
-          Sass
-          Bootstrap
-          Google Fonts
-          Animate.css
+          HTML,
+          CSS,
+          Sass,
+          Bootstrap,
+          Google Fonts,
+          Animate.css.
           Explore the various features and styles incorporated in this project!"
           findMore={
             "https://riboldicamila.github.io/swissmedia-basic-html-saas/"
@@ -79,14 +79,14 @@ function MyWork() {
           title="My portfolio REACT JS | MUI "
           text="In this project, you'll find a portfolio website created with React and Material UI, showcasing experiments with various frontend technologies and concepts. Is deployed and available on Vercel.
 The project leverages several libraries and technologies, including:
-React
-Material UI
-Emotion
-GSAP
-Animate.css
-React Router DOM
-React Material UI Carousel
-Google Fonts
+React, Functional Components, Hooks,
+Material UI,
+Emotion,
+GSAP,
+Animate.css,
+React Router DOM,
+React Material UI Carousel,
+Google Fonts.
 Explore the various features and styles incorporated in this project and see how different animations and interactions enhance the user experience!"
           findMore={"https://camila-riboldi.vercel.app/"}
         />
