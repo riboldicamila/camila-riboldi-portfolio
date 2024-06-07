@@ -9,6 +9,7 @@ import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import BrokenImageIcon from "@mui/icons-material/BrokenImage";
 import WorkInProgress from "../WorkInProgress/WorkInProgress";
 import PortfolioProject from "../MyWork/portfolio-project.png";
+import CoorporateProject from "../MyWork/coding.jpg";
 
 import "./MyWork.css";
 
@@ -59,7 +60,7 @@ function MyWork() {
       <div className="card-block">
         <MyWorkCard
           image={swissMedia}
-          title="SwissMedia HTML || CSS || BOOTSTRAP"
+          title="SwissMedia"
           text="In this project, you'll find a website created with HTML and CSS, featuring experiments with Sass, Flexbox, and general frontend concepts.
           To develop this site, I started with wireframes and thoughtfully designed the layout of each tab and page. The final product is deployed and available at GitHub Pages.
           The project uses several libraries and technologies, including:
@@ -76,18 +77,24 @@ function MyWork() {
         />
         <MyWorkCard
           image={PortfolioProject}
-          title="My portfolio REACT JS | MUI "
+          title="My portfolio"
           text="In this project, you'll find a portfolio website created with React and Material UI, showcasing experiments with various frontend technologies and concepts. Is deployed and available on Vercel.
-The project leverages several libraries and technologies, including:
-React, Functional Components, Hooks,
-Material UI,
-Emotion,
-GSAP,
-Animate.css,
-React Router DOM,
-React Material UI Carousel,
-Google Fonts.
-Explore the various features and styles incorporated in this project and see how different animations and interactions enhance the user experience!"
+                The project leverages several libraries and technologies, including:
+                React, Functional Components, Hooks,
+                Material UI,
+                Emotion,
+                GSAP,
+                Animate.css,
+                React Router DOM,
+                React Material UI Carousel,
+                Google Fonts.
+                Explore the various features and styles incorporated in this project and see how different animations and interactions enhance the user experience!"
+          findMore={"https://camila-riboldi.vercel.app/"}
+        />
+        <MyWorkCard
+          image={CoorporateProject}
+          title="Corporate Projects"
+          text="In my career, I've worked on corporate projects both with CMS and build from scratch applications. I'm experienced in React, using both functional and class components, and I've used tools like Bootstrap, React Router, and various hooks. I've applied these skills to build functional and user-friendly interfaces for different projects. "
           findMore={"https://camila-riboldi.vercel.app/"}
         />
       </div>
