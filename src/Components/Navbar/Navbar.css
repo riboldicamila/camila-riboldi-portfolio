@@ -3,7 +3,7 @@
   /* border-bottom: 3px solid #4f3838; */
   padding: 10px 20px;
   transition: transform 0.8s ease;
-  min-height: 100px;
+  height: 90px;
 }
 
 .navbar-slide-up {

@@ -7,33 +7,31 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 import "./MyWork.css";
 
-function MyWorkCard({ image, title, text }) {
+function MyWorkCard({ image, title, text, findMore }) {
   return (
-    <div className="home-card-container">
-      <Card style={{ width: "100%" }} className="home-card">
-        <CardActionArea style={{ display: "flex" }}>
-          <CardMedia
-            component="img"
-            height="300"
-            image={image}
-            alt="green iguana"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              {title}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {text}
-            </Typography>
-            <CardActions>
-              <Button size="small" color="primary">
-                Find more
-              </Button>
-            </CardActions>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-    </div>
+    <Card style={{ width: "70%" }} className="home-card">
+      <CardActionArea style={{ display: "flex" }}>
+      <CardMedia
+          component="img"
+          style={{ width: "700px" }} 
+          image={image}
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {text}
+          </Typography>
+          <CardActions>
+            <Button size="small" color="primary" onClick={() => window.location.href = findMore}>
+              Find more
+            </Button>
+          </CardActions>
+        </CardContent>
+      </CardActionArea>
+    </Card>
   );
 }
 

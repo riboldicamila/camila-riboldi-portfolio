@@ -2,7 +2,7 @@
   font-family: "DM Sans", sans-serif !important;
 }
 
-.card {
+.text-card {
   width: 300px;
   padding: 10px;
   box-sizing: border-box;
@@ -12,20 +12,20 @@
   transition: transform 0.2s;
 }
 
-.card:hover {
+.text-card:hover {
   transform: scale(1.05);
 }
 
-.card-icon {
+.text-card-icon {
   margin-bottom: 5px;
 }
 
-.card-title {
+.text-card-title {
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 8px;
 }
 
-.card-text {
+.text-card-text {
   font-size: 12px;
 }
