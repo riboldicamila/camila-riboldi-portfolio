@@ -11,9 +11,9 @@ function MyWorkCard({ image, title, text, findMore }) {
   return (
     <Card style={{ width: "70%" }} className="home-card">
       <CardActionArea style={{ display: "flex" }}>
-      <CardMedia
+        <CardMedia
           component="img"
-          style={{ width: "700px" }} 
+          style={{ width: "50%", objectFit: "cover", height: "100%" }}
           image={image}
           alt="green iguana"
         />
@@ -25,7 +25,11 @@ function MyWorkCard({ image, title, text, findMore }) {
             {text}
           </Typography>
           <CardActions>
-            <Button size="small" color="primary" onClick={() => window.location.href = findMore}>
+            <Button
+              size="small"
+              color="primary"
+              onClick={() => (window.location.href = findMore)}
+            >
               Find more
             </Button>
           </CardActions>
