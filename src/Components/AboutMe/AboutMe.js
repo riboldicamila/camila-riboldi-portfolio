@@ -51,25 +51,36 @@ function AboutMe() {
       </div>
 
       <div className="card-container">
-          <HomeCard
-            image={university}
-            title="Bachelor in Information Systems"
-            text="The Bachelor in Information Systems program ( 5 ½ years program) is a comprehensive journey merging business management with technological innovation. 
-        The curriculum is divided into distinct phases. The initial two years focus on economics, finance, and management principles, providing a holistic understanding of the business landscape.
-        Later stages emphasize Information Technology (IT) management. Learning about IT strategy, project management, and programming foundations."
-          />
-          <HomeCard
-            image={languages}
-            title="Courses and Trainnings"
-            text={coursesText}
-            className="trainning-card"
-          />
-          <HomeCard
-            image={courses}
-            title="Languages for Communication"
-            text={languagues}
-          />
-        </div>
+        <HomeCard
+          image={university}
+          title="Bachelor in Information Systems"
+          text=" Holding a degree from UBA University, ranked 2nd in the QS Latin
+              America University Rankings 2024 and 71st worldwide. This Bachelor
+              in Information Systems program spans 5 ½ years and offers a
+              comprehensive journey that merges
+              business management with technological innovation
+              . The program provides a great understanding of business needs and
+              requirements, emphasizing IT management. Gainning the skills to
+              negotiate with clients and understand their needs, giving skills
+              that complements the coding."
+        />
+        <HomeCard
+          image={languages}
+          title="Skills and Trainnings"
+          text="I improved my React skills through courses by Meta and Coderhouse, 
+             dedicating over 60 hours to mastering React Js. Additionally, I gained a solid understanding of web development fundamentals,
+         including HTML, CSS, and SASS, through a 38-hour course. From a design perspective, I grasped the fundamentals through a program at the University of Michigan,
+          understanding UX Design from concept to prototype. On the business side, I acquired a foundational understanding of marketing principles through a 30-hour course at Capacitarte.
+          Backend related, I completed a Coding Bootcamp emphasizing Object-Oriented Programming fundamentals based on Test Driven Development principles, which greatly improved
+           my problem-solving skills and code quality and later on I complemented that with a Python certification from Udemy."
+          className="trainning-card"
+        />
+        <HomeCard
+          image={courses}
+          title="Communication as a pilar"
+          text="Communication forms the foundation for understanding requirements and user needs. Given the global nature of technology, it's crucial to mention that I am a native Spanish speaker and also hold a C1 level of English proficiency, enabling me to fluently communicate both orally and in writing. This proficiency is certified by TOEFL and IGCSE English exams I have taken. Additionally, I have an elementary level of Portuguese, allowing me to engage in basic conversations and I'm eager to enhance my proficiency further if required for client interactions."
+        />
+      </div>
       <div className="image-container">
         <ImageWithText image={carrousel1} text={"Plan"} />
         <ImageWithText image={carrousel2} text={"Code"} />
