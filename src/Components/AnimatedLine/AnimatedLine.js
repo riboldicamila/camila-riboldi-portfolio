@@ -34,6 +34,7 @@ const AnimatedLine = () => {
         overflow: "hidden",
         width: "100%",
         height: "30px",
+        background: "#b1b181"
       }}
     >
       <div

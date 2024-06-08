@@ -1,40 +1,97 @@
-.card-text {
-    position: relative;
-    width: 500px;
-    height: 400px;
-    overflow: hidden;
-  }
-  
-  .card-text-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the entire card area */
-    display: block;
-  }
-  
-  .card-text-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.575);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    color: white; 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 1000px;
 }
-  
-  .card-text:hover .card-text-overlay {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.925);
-    border-right: solid 2px white;
-    border-left: solid 2px white;
+
+.card-text {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.card-text-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: white;
+}
+
+.card-text:hover .card-text-overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.925);
+  border-right: solid 2px white;
+  border-left: solid 2px white;
+}
+
+.card-text-overlay-text {
+  font-size: 1.5rem;
+}
+
+.text-container {
+  max-width: 60%;
+  padding: 40px;
+}
+
+.text-subtitle {
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.text-subtitle::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust distance from text */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ebe727; /* Adjust color of the underline */
+  transform: skewX(-20deg); /* Adjust skew angle for a rustic look */
+}
+
+.text-description {
+  margin-top: 12px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.about-me-card {
+  background: #272727;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: white;
+  text-align: justify;
+}
+
+.about-me-card:hover .card-text-overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.925);
+  border-right: solid 2px white;
+  border-left: solid 2px white;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-card {
+    width: 80%; 
   }
-  
-  .card-text-overlay-text {
-    font-size: 1.5rem; 
-  }
-  
+}
