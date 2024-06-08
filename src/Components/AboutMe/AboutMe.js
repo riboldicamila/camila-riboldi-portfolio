@@ -70,7 +70,7 @@ function AboutMe() {
           text="I improved my React skills through courses by Meta and Coderhouse, 
              dedicating over 60 hours to mastering React Js. Additionally, I gained a solid understanding of web development fundamentals,
          including HTML, CSS, and SASS, through a 38-hour course. From a design perspective, I grasped the fundamentals through a program at the University of Michigan,
-          understanding UX Design from concept to prototype. On the business side, I acquired a foundational understanding of marketing principles through a 30-hour course at Capacitarte.
+          understanding UX Design from concept to prototype.
           Backend related, I completed a Coding Bootcamp emphasizing Object-Oriented Programming fundamentals based on Test Driven Development principles, which greatly improved
            my problem-solving skills and code quality and later on I complemented that with a Python certification from Udemy."
           className="trainning-card"

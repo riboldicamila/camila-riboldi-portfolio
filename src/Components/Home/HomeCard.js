@@ -21,7 +21,12 @@ function HomeCard({ image, title, text, className }) {
       <Card sx={{ maxWidth: 345 }} className={classNameDefine}>
         <CardActionArea>
           <CardContent>
-            <Typography gutterBottom style={{ textAlign: "center", fontSize: 16 }} variant="h6" component="div">
+            <Typography
+              gutterBottom
+              style={{ textAlign: "center", fontSize: 16 }}
+              variant="h6"
+              component="div"
+            >
               {title}
             </Typography>
             <CardMedia
@@ -45,9 +50,9 @@ function HomeCard({ image, title, text, className }) {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" onClick={handleFindMoreClick}>
+          {/* <Button size="small" color="primary" onClick={handleFindMoreClick}>
             Find more
-          </Button>
+          </Button> */}
         </CardActions>
       </Card>
     </div>
