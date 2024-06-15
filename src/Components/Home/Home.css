@@ -129,13 +129,29 @@
   }
 
   .banner {
-    height: 600px;
+    height: 750px;
     overflow: hidden;
   }
 
   .banner-technologies {
     height: 600px;
     overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
   }
-  
+
+  .home-carrousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .card-block {
+    display: none;
+    visibility: hidden;
+  }
 }

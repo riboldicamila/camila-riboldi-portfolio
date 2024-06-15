@@ -52,4 +52,16 @@
   .image-container > * {
     flex: 1 1 100%;
   }
+
+  .card-container {
+    height: 2000px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .trainning-card {
+    transform: none;
+    height: auto;
+  }
 }
