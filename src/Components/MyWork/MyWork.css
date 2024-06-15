@@ -69,4 +69,18 @@
     flex-direction: column;
     gap: 15px;
   }
+  .my-work-tab .card-block {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .my-work-tab .home-card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    overflow: scroll !important;
+    display: flex !important;
+    height: 500px !important;
+    width: 100% !important;
+  }
 }

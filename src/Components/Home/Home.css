@@ -150,8 +150,4 @@
     justify-content: center;
     gap: 30px;
   }
-  .card-block {
-    display: none;
-    visibility: hidden;
-  }
 }
