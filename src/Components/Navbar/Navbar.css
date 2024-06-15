@@ -1,6 +1,5 @@
 .navbar {
   background-color: #f5f5f5;
-  /* border-bottom: 3px solid #4f3838; */
   padding: 10px 20px;
   transition: transform 0.8s ease;
   height: 90px;
@@ -46,4 +45,13 @@
 .nav-link:hover {
   border-bottom-color: yellow;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 834px) and (max-height: 1022px) {
+  .navbar-links {
+    display: none;
+  }
+  .logo-image {
+    margin-left: 2px;
+  }
 }

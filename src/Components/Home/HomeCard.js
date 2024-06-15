@@ -3,7 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions } from "@mui/material";
+import {CardActionArea, CardActions } from "@mui/material";
 
 import "./HomeCard.css";
 
@@ -11,11 +11,6 @@ function HomeCard({ image, title, text, className }) {
   const classNameDefine = `home-card-about-me${
     className ? ` ${className}` : ""
   }`;
-
-  const handleFindMoreClick = () => {
-    window.location.href = "https://www.linkedin.com/in/camila-riboldi";
-  };
-
   return (
     <div>
       <Card sx={{ maxWidth: 345 }} className={classNameDefine}>
@@ -50,9 +45,6 @@ function HomeCard({ image, title, text, className }) {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          {/* <Button size="small" color="primary" onClick={handleFindMoreClick}>
-            Find more
-          </Button> */}
         </CardActions>
       </Card>
     </div>

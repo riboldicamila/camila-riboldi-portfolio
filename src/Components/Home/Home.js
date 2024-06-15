@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 
 import homePicture from "./home-picture-7.jpg";
-
 import git from "./git.png";
 import html from "./html.png";
 import scrum from "./scrum.png";
@@ -12,7 +11,6 @@ import python from "./python.png";
 import sql from "./sql.png";
 
 import PrimaryButton from "../Button/PrimaryButton";
-
 import useIntersectionObserver from "@react-hook/intersection-observer";
 
 import "./Home.css";
@@ -30,16 +28,9 @@ function Home() {
       <div className="image-with-text-overlay">
         <img src={homePicture} alt="Background" className="background-image" />
         <div className="text-overlay animate__animated animate__fadeInLeft">
-          <h2>Developing with a holistic view.</h2>
+          <h2>Crafting Solutions: Let's Create!</h2>
           <h3>Get to know my journey</h3>
         </div>
-        {/* <div>
-          <img
-            src={profilePicture}
-            alt="Background"
-            className="picture-overlay"
-          />
-        </div> */}
       </div>
       <div className="banner">
         <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>

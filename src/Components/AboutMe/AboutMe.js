@@ -9,39 +9,10 @@ import carrousel1 from "./web1.jpg";
 import carrousel2 from "./web2.jpg";
 import carrousel3 from "./web3.jpg";
 
-import CarouselPhotos from "../Carrosel/CarouselPhotos";
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
 import ImageWithText from "./ImageWithText";
 
 function AboutMe() {
-  const items = [
-    {
-      src: carrousel1,
-      altText: "Image 1 description",
-    },
-    {
-      src: carrousel2,
-      altText: "Image 1 description",
-    },
-    {
-      src: carrousel3,
-      altText: "Image 1 description",
-    },
-  ];
-
-  const coursesText = [
-    "Advanced React - Coursera by Meta",
-    "React Js 35hs - Coderhouse",
-    "Web Development | html-css-saas 38hs - Coderhouse",
-    "UX Design: From Concept to Prototype - University of Michigan",
-    "Technical Support Fundamentals - Coursera",
-    "Marketing Fundamentals 30hs - Capacitarte",
-    "Coding Bootcamp: OOP Fundamentals based on TDD (test driven development)",
-  ];
-
-  const languagues = [
-    "I am an Argentinean native Spanish speaker. My second language is English, with a C1 proficiency level certified by the IGCSE and TOEFL exams. Also, I look forward to improving my Portuguese, which is currently at a beginner level.",
-  ];
 
   return (
     <>
@@ -85,7 +56,6 @@ function AboutMe() {
         <ImageWithText image={carrousel1} text={"Plan"} />
         <ImageWithText image={carrousel2} text={"Code"} />
         <ImageWithText image={carrousel3} text={"Refine"} />
-        {/* <CarouselPhotos items={items} /> */}
       </div>
     </>
   );

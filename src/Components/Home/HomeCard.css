@@ -9,10 +9,8 @@
   display: flex;
   flex-direction: column;
   padding: 5px !important;
-  transition: transform 0.20s ease, scale 0.8s ease;
+  transition: transform 0.2s ease, scale 0.8s ease;
   text-align: justify;
-
-  
 }
 
 .no-bullets {
@@ -22,9 +20,8 @@
 
 .home-card-about-me:hover {
   transform: scale(1.02);
-  scale: 1.02; /* Add this line to animate the scale property */
+  scale: 1.02;
 }
-
 
 .home-card-about-me .MuiCardActionArea {
   height: 100%;
@@ -48,4 +45,11 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 834px) and (max-height: 1022px) {
+  .home-card-about-me {
+    width: 350px;
+    margin-left: 8%;
+  }
 }

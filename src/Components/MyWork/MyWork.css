@@ -47,7 +47,6 @@
   align-items: center;
 }
 
-
 .home-card {
   width: 100%;
   max-width: 100% !important;
@@ -58,4 +57,11 @@
 .my-work-card-container {
   width: 100%;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 834px) and (max-height: 1022px) {
+  .card-container {
+    height: 2000px;
+    flex-direction: column;
+  }
 }

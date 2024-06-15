@@ -13,7 +13,12 @@ function MyWorkCard({ image, title, text, findMore }) {
       <CardActionArea style={{ display: "flex" }}>
         <CardMedia
           component="img"
-          style={{ width: "50%", objectFit: "cover", height: "100%" }}
+          style={{
+            maxWidth: "50%",
+            minWidth: "50%",
+            objectFit: "cover",
+            height: "100%",
+          }}
           image={image}
           alt="green iguana"
         />
