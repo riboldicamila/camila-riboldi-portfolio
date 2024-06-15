@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Footer.css";
 import IconWithText from "../IconText/IconText";
@@ -7,6 +7,7 @@ import IconWithText from "../IconText/IconText";
 export default function Footer() {
   const footerBottomRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
+  const navigate = useNavigate();
 
   const handleScroll = () => {
     if (footerBottomRef.current) {
@@ -25,6 +26,11 @@ export default function Footer() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const scrollToTopAndNavigate = (path) => {
+    window.scrollTo(0, 0);
+    navigate(path);
+  };
 
   return (
     <footer className="footer">
@@ -45,9 +51,25 @@ export default function Footer() {
         <div className="menu-info">
           <h2>MENU:</h2>
           <div className="decorative-icons">
-            <IconWithText text={<Link to="/">Home</Link>} />
-            <IconWithText text={<Link to="/about-me">About Me</Link>} />
-            <IconWithText text={<Link to="/my-work">Work</Link>} />
+            <IconWithText
+              text={
+                <span onClick={() => scrollToTopAndNavigate("/")}>Home</span>
+              }
+            />
+            <IconWithText
+              text={
+                <span onClick={() => scrollToTopAndNavigate("/about-me")}>
+                  About Me
+                </span>
+              }
+            />
+            <IconWithText
+              text={
+                <span onClick={() => scrollToTopAndNavigate("/my-work")}>
+                  Work
+                </span>
+              }
+            />
           </div>
         </div>
         <div>
@@ -57,7 +79,7 @@ export default function Footer() {
         </div>
       </div>
       <div
-        className={`footer-bottom ${isVisible ? 'visible' : ''}`}
+        className={`footer-bottom ${isVisible ? "visible" : ""}`}
         ref={footerBottomRef}
       >
         <p>© 2024 Camila Riboldi. All Rights Reserved.</p>

@@ -13,7 +13,6 @@ import AnimatedLine from "../AnimatedLine/AnimatedLine";
 import ImageWithText from "./ImageWithText";
 
 function AboutMe() {
-
   return (
     <>
       <AnimatedLine />
@@ -48,7 +47,7 @@ function AboutMe() {
         />
         <HomeCard
           image={courses}
-          title="Communication as a pilar"
+          title="Communication as a pillar"
           text="Communication forms the foundation for understanding requirements and user needs. Given the global nature of technology, it's crucial to mention that I am a native Spanish speaker and also hold a C1 level of English proficiency, enabling me to fluently communicate both orally and in writing. This proficiency is certified by TOEFL and IGCSE English exams I have taken. Additionally, I have an elementary level of Portuguese, allowing me to engage in basic conversations and I'm eager to enhance my proficiency further if required for client interactions."
         />
       </div>
