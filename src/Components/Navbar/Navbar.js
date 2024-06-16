@@ -28,7 +28,9 @@ function Navbar() {
     <div className={`navbar ${navbarClass}`}>
       <nav className="navbar-container">
         <div className="navbar-logo">
-          <img src={Logo} alt="Logo" className="logo-image" />
+          <a href="/home">
+            <img src={Logo} alt="Logo" className="logo-image" />
+          </a>
         </div>
         <div className="navbar-links">
           <Link to="/" className="nav-link">
