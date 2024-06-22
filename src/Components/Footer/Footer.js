@@ -36,9 +36,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="contact-info">
-          <h2>CONTACT ME:</h2>
+          <h2>LET´S CONNECT</h2>
           <div className="decorative-icons">
-            <IconWithText text="Email: cami.riboldi@gmail.com" />
+            <IconWithText text="cami.riboldi@gmail.com" />
             <IconWithText
               text={
                 <Link to="https://www.linkedin.com">
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="menu-info">
-          <h2>MENU:</h2>
+          <h2>MENU</h2>
           <div className="decorative-icons">
             <IconWithText
               text={

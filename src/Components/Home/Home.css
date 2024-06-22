@@ -36,7 +36,7 @@
   margin-bottom: 20px;
   border-bottom: 3px solid transparent;
   transition: border-color 0.3s ease;
-  border-bottom-color: yellow;
+  border-bottom-color: var( --yellow-one);
 }
 
 .picture-overlay {
@@ -73,13 +73,20 @@
   font-weight: bold;
 }
 
-.banner p {
+.banner div {
   margin: 20px;
   margin-bottom: 40px;
+  width:600px;
+  margin-left: 280px;
 }
 
+.banner div .highlight{
+  color:var( --yellow-one);
+}
+
+
 .home-btn {
-  background-color: #daca23 !important;
+  background-color:var( --yellow-one) !important;
   margin-top: 20px;
 }
 

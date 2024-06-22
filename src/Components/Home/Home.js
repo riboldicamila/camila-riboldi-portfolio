@@ -34,18 +34,12 @@ function Home() {
       </div>
       <div className="banner">
         <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>
-        <p>
-          I'm a{" "}
-          <span className="yellow-underline">
-            software developer with a focus on frontend
-          </span>
-          , curious about UX and UI. <br /> I have some knowledge of backend and
-          databases, and I hold a bachelor's degree <br /> in Information
-          Systems. I enjoy teamwork and am committed to creating <br />{" "}
-          user-friendly experiences while continuously learning and expanding my
-          skills.
-        </p>
-
+        <div>
+          My name is Camila. I'm a software developer who specializes in{" "}
+          <span className="highlight">web development - frontend</span>. I
+          understand both the business and the technological perspectives and I
+          work to unify those to deliver the best product to the clients.
+        </div>
         <PrimaryButton href="none" className="home-btn" text="Know More" />
       </div>
       <div

@@ -17,7 +17,7 @@ function AboutMe() {
     <>
       <AnimatedLine />
       <div className="about-me-container">
-        <h2 className="about-me-title"> Get to know me</h2>
+        <h2 className="about-me-title"> My journey</h2>
       </div>
 
       <div className="card-container">

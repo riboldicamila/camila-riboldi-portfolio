@@ -1,3 +1,10 @@
+:root {
+  --yellow-one:#DEE433;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,3 +15,4 @@
 body {
   background-color: rgb(192, 192, 191);
 }
+
