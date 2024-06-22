@@ -42,7 +42,7 @@ function Home() {
     "Knowledge with React Hooks.",
     "Libraries such as React Router DOM and React Icons.",
     "Frontend testing: React Testing Library (RTL) and Jest.",
-    "I can integrate any needed library or framework as required.",
+    "Integrate any needed library or framework as required.",
     "Foundations in backend with Object-Oriented Programming (OOP).",
     "SQL. Python. JavaScript"
   ];
