@@ -10,6 +10,7 @@ import BrokenImageIcon from "@mui/icons-material/BrokenImage";
 import WorkInProgress from "../WorkInProgress/WorkInProgress";
 import PortfolioProject from "../MyWork/portfolio-project.png";
 import CoorporateProject from "../MyWork/coding.jpg";
+import MinamalisticWeb from "../MyWork/minimalistic-web.png";
 
 import "./MyWork.css";
 
@@ -91,6 +92,14 @@ function MyWork() {
                 Explore the various features and styles incorporated in this project and see how different animations and interactions enhance the user experience!"
           findMore={"https://camila-riboldi.vercel.app/"}
         />
+
+        <MyWorkCard
+          image={MinamalisticWeb}
+          title="Minamalistic Portfolio Sample"
+          text="This was a quick project where I focused on creating a minimalistic portfolio using React. No routing was involved, so React Router was not used. I implemented plain CSS along with Bootstrap for styling, and utilized React Icons to enhance the visual elements. This project showcases my ability to build clean, simple, and effective user interfaces."
+          findMore={"https://minimalistic-web-sample.vercel.app/"}
+        />
+
         <MyWorkCard
           image={CoorporateProject}
           title="Corporate Projects"
