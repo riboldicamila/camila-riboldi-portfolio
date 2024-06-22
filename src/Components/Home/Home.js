@@ -24,7 +24,7 @@ function Home() {
   });
 
   return (
-    <div className="home">
+    <div className="home-tab">
       <div className="image-with-text-overlay">
         <img src={homePicture} alt="Background" className="background-image" />
         <div className="text-overlay animate__animated animate__fadeInLeft">
@@ -42,6 +42,29 @@ function Home() {
         </div>
         <PrimaryButton href="none" className="home-btn" text="Know More" />
       </div>
+
+      <div className="home-tab secound-banner">
+        <div className="card">
+          <div className="title">What can I Help With</div>
+          <div className="text">
+            By organizing your color variables in a separate CSS file and
+            importing them where needed, you can maintain a consistent color
+            scheme across your project and make it easier to update colors in
+            the future.
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="title">What can I Help With</div>
+          <div className="text">
+            By organizing your color variables in a separate CSS file and
+            importing them where needed, you can maintain a consistent color
+            scheme across your project and make it easier to update colors in
+            the future.
+          </div>
+        </div>
+      </div>
+
       <div
         className={`banner-technologies ${isIntersecting ? "" : "hidden"}`}
         ref={bannerRef}
