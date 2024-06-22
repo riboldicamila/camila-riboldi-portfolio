@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { FaCheck } from "react-icons/fa";
 
 import homePicture from "./HomeImages/home-picture-7.jpg";
 import git from "./HomeImages/git.png";
@@ -23,6 +24,29 @@ function Home() {
     threshold: 0.8,
   });
 
+  const sentences = [
+    "Team player - understanding both business and tech needs.",
+    "Collecting requirements for the application that needs to be developed.",
+    "Estimating time for tasks, especially those related to frontend development.",
+    "Planning with agile methodologies in mind, determining what to do in each iteration.",
+    "Thinking ahead of the client - considering what functionality is truly needed.",
+    "Focusing on UX/UI experience.",
+    "Maintaining an open mindset, as needs evolve along with technologies.",
+    "Always learning and improving my skills.",
+  ];
+
+  const sentencesTechnologies = [
+    "Creating CSS, SASS, and HTML pages.",
+    "Frameworks such as Bootstrap, Material UI, and internal company-specific frameworks.",
+    "Strongest skill: React JS. Class and Functional Components.",
+    "Knowledge with React Hooks.",
+    "Libraries such as React Router DOM and React Icons.",
+    "Frontend testing: React Testing Library (RTL) and Jest.",
+    "I can integrate any needed library or framework as required.",
+    "Foundations in backend with Object-Oriented Programming (OOP).",
+    "SQL. Python. JavaScript"
+  ];
+
   return (
     <div className="home-tab">
       <div className="image-with-text-overlay">
@@ -45,22 +69,42 @@ function Home() {
 
       <div className="home-tab secound-banner">
         <div className="card">
+          <div className="up-title">Skills</div>
           <div className="title">What can I Help With</div>
           <div className="text">
-            By organizing your color variables in a separate CSS file and
-            importing them where needed, you can maintain a consistent color
-            scheme across your project and make it easier to update colors in
-            the future.
+            {sentences.map((sentence, index) => (
+              <div
+                key={index}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginBottom: "10px",
+                }}
+              >
+                <FaCheck style={{ marginRight: "8px", color: "green" }} />
+                <span>{sentence}</span>
+              </div>
+            ))}
           </div>
         </div>
 
         <div className="card">
-          <div className="title">What can I Help With</div>
+          <div className="up-title">Technologies</div>
+          <div className="title">What I have worked With</div>
           <div className="text">
-            By organizing your color variables in a separate CSS file and
-            importing them where needed, you can maintain a consistent color
-            scheme across your project and make it easier to update colors in
-            the future.
+            {sentencesTechnologies.map((sentence, index) => (
+              <div
+                key={index}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginBottom: "10px",
+                }}
+              >
+                <FaCheck style={{ marginRight: "8px", color: "green" }} />
+                <span>{sentence}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

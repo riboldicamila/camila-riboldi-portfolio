@@ -36,7 +36,7 @@
   margin-bottom: 20px;
   border-bottom: 3px solid transparent;
   transition: border-color 0.3s ease;
-  border-bottom-color: var( --yellow-one);
+  border-bottom-color: var(--yellow-one);
 }
 
 .picture-overlay {
@@ -54,7 +54,7 @@
   color: white;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  height: 400px;
+  height: 350px;
 }
 
 .banner-technologies {
@@ -75,33 +75,52 @@
 .banner div {
   margin: 20px;
   margin-bottom: 40px;
-  width:600px;
+  width: 600px;
   margin-left: 280px;
 }
 
-.banner div .highlight{
-  color:var( --yellow-one);
+.banner div .highlight {
+  color: var(--yellow-one);
 }
 
-.home-tab .secound-banner{
-  background-image: url("./HomeImages/home-picture-7.jpg");
+.home-tab .secound-banner {
+  background-image: url("./HomeImages/background2.png");
   background-size: cover;
-  background-position: right;
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: row;
-  padding-left: 80px;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.home-tab .secound-banner .card{
+.home-tab .secound-banner .card {
   background-color: #272727;
-  max-width: 600px;
-  padding: 100px;
+  width: 600px;
+  height: 550px;
+  padding: 70px;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.home-tab .secound-banner .card .up-title {
+  text-transform: uppercase;
+  color: var(--yellow-one);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.home-tab .secound-banner .card .title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .home-btn {
-  background-color:var( --yellow-one) !important;
+  background-color: var(--yellow-one) !important;
   margin-top: 20px;
 }
 
@@ -155,6 +174,12 @@
     overflow: hidden;
   }
 
+  .banner div{
+    margin: 20px;
+    margin-top: 40px;
+    width: auto;
+  }
+
   .banner-technologies {
     height: 600px;
     overflow: hidden;
@@ -171,5 +196,10 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+  }
+
+  .home-tab .secound-banner {
+    height: auto;
+    font-size: 12px;
   }
 }
