@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 
-import homePicture from "./home-picture-7.jpg";
-import git from "./git.png";
-import html from "./html.png";
-import scrum from "./scrum.png";
-import css from "./CSS-Logo.png";
-import js from "./JavaScript.png";
-import react from "./react+.png";
-import python from "./python.png";
-import sql from "./sql.png";
+import homePicture from "./HomeImages/home-picture-7.jpg";
+import git from "./HomeImages/git.png";
+import html from "./HomeImages/html.png";
+import scrum from "./HomeImages/scrum.png";
+import css from "./HomeImages/CSS-Logo.png";
+import js from "./HomeImages/JavaScript.png";
+import react from "./HomeImages/react+.png";
+import python from "./HomeImages/python.png";
+import sql from "./HomeImages/sql.png";
 
 import PrimaryButton from "../Button/PrimaryButton";
 import useIntersectionObserver from "@react-hook/intersection-observer";
