@@ -97,11 +97,11 @@
 .home-tab .secound-banner .card {
   background-color: #272727;
   width: 600px;
-  height: 550px;
+  height: 500px;
   padding: 70px;
   border-radius: 10px;
   color: white;
-
+  font-size: 14px;
 }
 
 .home-tab .secound-banner .card .up-title {
@@ -116,7 +116,7 @@
   color: white;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .home-btn {
