@@ -44,7 +44,7 @@ function Home() {
     "Frontend testing: React Testing Library (RTL) and Jest.",
     "Integrate any needed library or framework as required.",
     "Foundations in backend with Object-Oriented Programming (OOP).",
-    "SQL. Python. JavaScript"
+    "SQL. Python. JavaScript",
   ];
 
   return (

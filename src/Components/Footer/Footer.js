@@ -34,6 +34,11 @@ export default function Footer() {
 
   return (
     <footer className="footer">
+       <div className="footer-quote">
+        <div>
+          Engineering user-friendly solutions with a business-first mindset.
+        </div>
+      </div>
       <div className="footer-container">
         <div className="contact-info">
           <h2>LET´S CONNECT</h2>
