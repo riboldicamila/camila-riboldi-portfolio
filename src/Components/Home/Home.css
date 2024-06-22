@@ -55,6 +55,9 @@
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .banner-technologies {
@@ -76,7 +79,6 @@
   margin: 20px;
   margin-bottom: 40px;
   width: 600px;
-  margin-left: 280px;
 }
 
 .banner div .highlight {
@@ -174,7 +176,7 @@
     overflow: hidden;
   }
 
-  .banner div{
+  .banner div {
     margin: 20px;
     margin-top: 40px;
     width: auto;
