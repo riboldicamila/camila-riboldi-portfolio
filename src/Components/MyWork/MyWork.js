@@ -95,7 +95,7 @@ function MyWork() {
 
         <MyWorkCard
           image={MinamalisticWeb}
-          title="Minamalistic Portfolio Sample"
+          title="Minimalistic Portfolio Sample"
           text="This was a quick project where I focused on creating a minimalistic portfolio using React. No routing was involved, so React Router was not used. I implemented plain CSS along with Bootstrap for styling, and utilized React Icons to enhance the visual elements. This project showcases my ability to build clean, simple, and effective user interfaces."
           findMore={"https://minimalistic-web-sample.vercel.app/"}
         />
