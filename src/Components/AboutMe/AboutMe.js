@@ -18,6 +18,11 @@ function AboutMe() {
       <AnimatedLine />
       <div className="about-me-container">
         <h2 className="about-me-title"> My journey</h2>
+        <div>Better done than perfect.</div>
+        <div>
+          On the path of creating and learning, what matters is always
+          progressing.
+        </div>
       </div>
 
       <div className="card-container">
