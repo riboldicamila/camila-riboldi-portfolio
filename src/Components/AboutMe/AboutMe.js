@@ -59,7 +59,7 @@ function AboutMe() {
         <img src={Arrow} alt="Logo" className="logo-image" />{" "}
         <div className="journey-card">
           <img src={Idiomas} alt="Logo" className="logo-image" />
-          <h2>Let´s Connect -we need a common language-</h2>
+          <h2>Let´s Connect -find a language in common-</h2>
           <div>Spanish | English | Portuguese </div>
           <div>
             I am a native Spanish speaker and also hold a C1 level of English
