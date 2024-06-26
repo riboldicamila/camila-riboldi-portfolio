@@ -49,7 +49,8 @@
 }
 
 .banner {
-  background-color: #272727;
+  background-image: url("./HomeImages/background4.png");
+  background-size: cover;
   padding: 80px;
   color: white;
   text-align: center;
@@ -97,7 +98,7 @@
 }
 
 .home-tab .secound-banner .card {
-  background-color: #272727;
+  background-color: #272727d3;
   width: 600px;
   height: 500px;
   padding: 70px;
