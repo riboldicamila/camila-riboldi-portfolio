@@ -43,7 +43,7 @@
 }
 
 .nav-link:hover {
-  border-bottom-color: yellow;
+  border-bottom-color: var(--yellow-one);
   transform: scale(1.1);
 }
 

@@ -1,9 +1,15 @@
 :root {
-  --yellow-one:#DEE433;
-  --secondary-color: #2ecc71;
-  --accent-color: #e74c3c;
-  --text-color: #333;
+  --yellow-one: #ffc300;
+  --light-grey: #cccccc;
+  --dark-grey: #333333;
+  --black: #000000;
+  --light-blue: #0066cc;
 }
+
+/* Yellow: #FFD700 (Gold)
+Dark Grey: #333333
+Light Grey: #CCCCCC
+Black: #000000 */
 
 * {
   margin: 0;
@@ -15,4 +21,3 @@
 body {
   background-color: rgb(192, 192, 191);
 }
-
