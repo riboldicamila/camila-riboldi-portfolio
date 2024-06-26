@@ -42,12 +42,14 @@ function Navbar() {
           <Link to="/my-work" className="nav-link">
             Work
           </Link>
-        </div>
-        <div>
+
           <PrimaryButton
             href="https://www.linkedin.com/in/camila-riboldi/"
             text="Linkedin"
           />
+        </div>
+        <div>
+        
         </div>
       </nav>
     </div>

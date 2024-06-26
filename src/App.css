@@ -1,5 +1,6 @@
 :root {
   --yellow-one: #ffc300;
+  --color-one-opacity: #c28d1a;
   --light-grey: #cccccc;
   --dark-grey: #333333;
   --black: #000000;
@@ -9,7 +10,9 @@
 /* Yellow: #FFD700 (Gold)
 Dark Grey: #333333
 Light Grey: #CCCCCC
-Black: #000000 */
+Black: #000000 
+ background-color: #292323;
+*/
 
 * {
   margin: 0;

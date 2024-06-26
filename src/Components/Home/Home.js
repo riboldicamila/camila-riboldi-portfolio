@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FaCheck } from "react-icons/fa";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 import homePicture from "./HomeImages/home-picture-7.jpg";
 import git from "./HomeImages/git.png";
@@ -81,7 +82,7 @@ function Home() {
                   marginBottom: "10px",
                 }}
               >
-                <FaCheck style={{ marginRight: "8px", color: "green" }} />
+                <CheckCircleOutlineIcon className="custom-tick-icon"  sx={{ fontSize: 20 }} />
                 <span>{sentence}</span>
               </div>
             ))}
@@ -101,7 +102,7 @@ function Home() {
                   marginBottom: "10px",
                 }}
               >
-                <FaCheck style={{ marginRight: "8px", color: "green" }} />
+                <CheckCircleOutlineIcon className="custom-tick-icon"  sx={{ fontSize: 20 }} />
                 <span>{sentence}</span>
               </div>
             ))}

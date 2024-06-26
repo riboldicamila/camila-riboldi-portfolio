@@ -128,7 +128,7 @@
 }
 
 .home-btn:hover {
-  background-color: rgb(187, 187, 76) !important;
+  background-color: var(--color-one-opacity) !important;
 }
 
 .icon-image {
@@ -159,6 +159,16 @@
 .yellow-underline {
   border-bottom: 1px solid rgb(150, 150, 18);
   line-height: 1;
+}
+
+.custom-tick-icon {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.custom-tick-icon path:first-child {
+  stroke: var( --yellow-one); 
+  fill: none;
 }
 
 @media screen and (max-width: 834px) and (max-height: 1022px) {
