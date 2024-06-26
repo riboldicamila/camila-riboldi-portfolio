@@ -38,7 +38,9 @@
 }
 
 .my-work-tab .knowledge-cards {
-  background: #332d2d;
+  background-image: url("../MyWork/background5.png");
+  background-size: cover;
+  background-position: center;
   color: white;
   padding: 70px;
   display: flex;
