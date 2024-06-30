@@ -1,0 +1,50 @@
+.information-card {
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 10px;
+  position: relative; 
+}
+
+.information-card-content {
+  padding: 16px;
+  background-color: white;
+  height: 260px;
+  border-radius: 8px 8px 0px 0px;
+  box-sizing: border-box;
+}
+
+.information-card-title {
+  color: black;
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+.information-card-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.information-card-bottom {
+  background-color: orange;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+  position: relative; 
+}
+
+.information-card-image {
+  height: 80px;
+  width: auto;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 10px; 
+  right: 10px;
+  height: 120px; 
+  margin-bottom: 45px;
+}

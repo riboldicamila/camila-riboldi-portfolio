@@ -13,6 +13,7 @@ import Arrow from "./AboutMeImages/arrow.png";
 
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
 import ImageWithText from "./ImageWithText";
+import InformationCard from "../InformationCard/InformationCard";
 
 function AboutMe() {
   return (
@@ -29,55 +30,41 @@ function AboutMe() {
         </div>
 
         <div className="journey-container">
-          <div className="journey-card">
-            <img src={Bachelor} alt="Logo" className="logo-image" />
-            <h2>Bachelor in Information Systems from UBA</h2>
-            <div>Ranked 2nd in the QS Latin America University.</div>
-            <div>
-              The program spans 5 ½ years and offers a comprehensive journey
-              that merges business management with technological innovation.
-            </div>
-          </div>
-          <img src={Arrow} alt="Logo" className="logo-image" />{" "}
-          <div className="journey-card">
-            <img src={Idea} alt="Logo" className="logo-image" />
-            <h2>Skills and Training</h2>
-            <div>
-              Dedicating over 60 hours to mastering React Js with both
-              CoderHouse and Meta courses.
-            </div>
-            <div>
-              Gained a solid understanding of web development fundamentals,
+          <InformationCard
+            title="Bachelor in Information Systems from UBA"
+            text="Ranked 2nd in the QS Latin America University.  The program spans 5 ½ years and offers a comprehensive journey
+              that merges business management with technological innovation."
+            imageUrl={Bachelor}
+          />
+          <img src={Arrow} alt="Logo" className="arrow" />
+          <InformationCard
+            title="Skills and Training"
+            text="Dedicating over 60 hours to mastering React Js with both
+              CoderHouse and Meta courses.  Gained a solid understanding of web development fundamentals,
               including HTML, CSS, and SASS, through a 38-hour course.
               Participated in bootcamps for Object Orented Prgramming and
-              courses for backend languages such as Python.
-            </div>
-          </div>
-          <img src={Arrow} alt="Logo" className="logo-image" />{" "}
-          <div className="journey-card">
-            <img src={Idiomas} alt="Logo" className="logo-image" />
-            <h2>Let´s Connect -find a language in common-</h2>
-            <div>Spanish | English | Portuguese </div>
-            <div>
-              I am a native Spanish speaker and also hold a C1 level of English
+              courses for backend languages such as Python."
+            imageUrl={Idea}
+          />
+          <img src={Arrow} alt="Logo" className="arrow" />
+          <InformationCard
+            title="Let´s Connect: Spanish | English | Portuguese"
+            text="I am a native Spanish speaker and also hold a C1 level of English
               proficiency, enabling me to fluently communicate both orally and
               in writing. This proficiency is certified by TOEFL and IGCSE
               English exams I have taken. Additionally, I have an elementary
-              level of Portuguese, allowing me to engage in basic conversations.
-            </div>
-            <div></div>
-          </div>
-          <img src={Arrow} alt="Logo" className="logo-image" />{" "}
-          <div className="journey-card">
-            <img src={Work} alt="Logo" className="logo-image" />
-            <h2>Working in corporate</h2>
-            <div>2 ½ years of experience.</div>
-            <div>
-              In the last two and a half years, I have been working in
+              level of Portuguese, allowing me to engage in basic conversations."
+            imageUrl={Idiomas}
+          />
+          <img src={Arrow} alt="Logo" className="arrow" />
+
+          <InformationCard
+            title="Working in corporate"
+            text="2 ½ years of experience.  In the last two and a half years, I have been working in
               multinational companies, improving my skills in software
-              development.
-            </div>
-          </div>
+              development. I have a great undestanding of team work and dynamics, worked with both in person and online-virtual teams, to maintain and also develop from zero applications."
+            imageUrl={Work}
+          />
         </div>
 
         <div className="image-container">

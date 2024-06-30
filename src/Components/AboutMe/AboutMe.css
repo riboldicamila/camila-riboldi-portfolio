@@ -2,7 +2,7 @@
   font-family: "DM Sans", sans-serif !important;
 }
 
-.about-me-tab{
+.about-me-tab {
   background-image: url("../Home/HomeImages/background4.png");
   background-size: cover;
   background-position: center;
@@ -27,7 +27,7 @@
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
-  color: var(--yellow-one)
+  color: var(--yellow-one);
 }
 
 .card-container {
@@ -61,7 +61,7 @@
 .journey-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   padding: 40px 1px;
   background-image: url("./AboutMeImages/backgorund2.jpg");
@@ -69,7 +69,7 @@
   opacity: 0.9;
   border-radius: 10px;
   flex-wrap: wrap;
-  margin: 10px 150px 160px
+  margin: 10px 150px 160px;
 }
 
 .journey-card {
@@ -89,6 +89,11 @@
   margin-bottom: 5px;
 }
 
+.arrow {
+  width: 50px;
+  margin: 20px;
+}
+
 @media (max-width: 768px) {
   .image-container > * {
     flex: 1 1 100%;
@@ -106,12 +111,12 @@
     height: auto;
   }
 
-  .journey-container{
+  .journey-container {
     margin: 5px;
     margin-bottom: 80px;
   }
 
-  .about-me-tab{
+  .about-me-tab {
     margin-top: 80px;
   }
 }

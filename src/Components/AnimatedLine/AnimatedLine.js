@@ -10,7 +10,6 @@ const AnimatedLine = () => {
     const text = textRef.current;
     const screenWidth = window.innerWidth;
 
-    // Get the actual width of the line element
     const lineWidth = line.getBoundingClientRect().width;
     const textWidth = text.getBoundingClientRect().width;
 
