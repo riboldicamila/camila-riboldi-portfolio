@@ -14,6 +14,7 @@ import Arrow from "./AboutMeImages/arrow.png";
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
 import ImageWithText from "./ImageWithText";
 import InformationCard from "../InformationCard/InformationCard";
+import Underline from "../AboutMe/AboutMeImages/underline.png";
 
 function AboutMe() {
   return (
@@ -22,6 +23,7 @@ function AboutMe() {
       <div className="about-me-tab">
         <div className="about-me-container">
           <h2 className="about-me-title"> My journey</h2>
+          <img src={Underline} alt="underline" className="underline-image" />
           <div>Better done than perfect.</div>
           <div>
             On the path of creating and learning, what matters is always
