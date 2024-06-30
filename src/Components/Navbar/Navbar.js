@@ -7,6 +7,7 @@ import PrimaryButton from "../Button/PrimaryButton";
 function Navbar() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navbarClass, setNavbarClass] = useState("");
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,6 +25,10 @@ function Navbar() {
     };
   }, [scrollPosition]);
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div className={`navbar ${navbarClass}`}>
       <nav className="navbar-container">
@@ -32,7 +37,7 @@ function Navbar() {
             <img src={Logo} alt="Logo" className="logo-image" />
           </a>
         </div>
-        <div className="navbar-links">
+        <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
           <Link to="/" className="nav-link">
             Home
           </Link>
@@ -42,14 +47,15 @@ function Navbar() {
           <Link to="/my-work" className="nav-link">
             Work
           </Link>
-
           <PrimaryButton
             href="https://www.linkedin.com/in/camila-riboldi/"
             text="Linkedin"
           />
         </div>
-        <div>
-        
+        <div className="hamburger-menu" onClick={toggleMobileMenu}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
         </div>
       </nav>
     </div>
