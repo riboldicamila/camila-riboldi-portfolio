@@ -26,6 +26,8 @@
 .about-me-title {
   text-align: center;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--yellow-one)
 }
 
 .card-container {
