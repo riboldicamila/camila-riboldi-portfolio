@@ -103,4 +103,9 @@
     transform: none;
     height: auto;
   }
+
+  .journey-container{
+    margin: 5px;
+    margin-bottom: 80px;
+  }
 }

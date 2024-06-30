@@ -184,7 +184,7 @@
   }
 
   .banner {
-    height: 750px;
+    height: 500px;
     overflow: hidden;
   }
 
@@ -213,7 +213,8 @@
   }
 
   .home-tab .secound-banner {
-    height: auto;
+    height: 1300px;
     font-size: 12px;
-  }
+    align-content: strech;
+ }
 }
