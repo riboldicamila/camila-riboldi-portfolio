@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import "./Footer.css";
+import { FaArrowUp, FaGlobe } from "react-icons/fa";
 import IconWithText from "../IconText/IconText";
+import Flag, { ReactCountryFlag } from "react-country-flag";
+
+import "./Footer.css";
 
 export default function Footer() {
   const footerBottomRef = useRef(null);
@@ -34,7 +37,28 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-       <div className="footer-quote">
+      <div className="top-bar">
+        <div className="top-bar">
+          <div className="world-icon">
+            <FaGlobe />
+          </div>
+          <div className="argentina-icon">
+            <ReactCountryFlag
+              countryCode="AR"
+              svg
+              style={{
+                width: "2em",
+                height: "2em",
+              }}
+              title="US"
+            />
+          </div>
+          <a href="#top" className="top-arrow">
+            <FaArrowUp style={{ color: "#333", fontSize: "20px"}} />
+          </a>
+        </div>
+      </div>
+      <div className="footer-quote">
         <div>
           Engineering user-friendly solutions with a business-first mindset.
         </div>

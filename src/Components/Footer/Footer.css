@@ -3,10 +3,9 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 30px 0;
   width: 100%;
   position: relative;
-  height: 300px;
+  height: 380px;
 }
 
 .footer-container {
@@ -32,6 +31,7 @@
   border-top: solid 1px var(--yellow-one);
   padding: 5px;
   border-radius: 10px;
+  margin-top: 40px;
 }
 
 .contact-info p,
@@ -117,4 +117,44 @@
     width: 80%;
     margin-left: 2%;
   }
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow-one);
+  height: 70px;
+  padding: 0 20px;
+}
+
+.world-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(247, 243, 243, 0.932);
+  border: 1px solid #333;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.argentina-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.top-arrow {
+  position: absolute;
+  right: 20px;
+  color: #333;
 }
