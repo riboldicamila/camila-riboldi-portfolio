@@ -27,12 +27,14 @@
 .about-me-title {
   text-align: center;
   color: white;
+  margin-bottom: 20px;
+
 }
 
-.underline-image {
+/* .underline-image {
   width: 180px;
   margin-bottom: 20px;
-}
+} */
 
 .card-container {
   display: flex;
@@ -81,7 +83,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 45px 1px;
+  padding: 45px 180px;
   background-color: rgb(239, 240, 241);
   background-size: cover;
   flex-wrap: wrap;
@@ -127,9 +129,10 @@
     height: auto;
   }
 
-  .journey-container {
+  .journey-container-2 {
     margin: 5px;
     margin-bottom: 80px;
+    padding: 5px;
   }
 
   .about-me-tab {
