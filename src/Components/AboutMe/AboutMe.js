@@ -31,7 +31,7 @@ function AboutMe() {
           </div>
         </div>
 
-        <div className="journey-container">
+        <div className="journey-container-2">
           <InformationCard
             title="Bachelor in Information Systems from UBA"
             text="Ranked 2nd in the QS Latin America University.  The program spans 5 ½ years and offers a comprehensive journey
@@ -53,7 +53,7 @@ function AboutMe() {
             title="Let´s Connect: Spanish | English | Portuguese"
             text="I am a native Spanish speaker and also hold a C1 level of English
               proficiency, enabling me to fluently communicate both orally and
-              in writing. This proficiency is certified by TOEFL and IGCSE
+              in writing. This is certified by TOEFL and IGCSE
               English exams I have taken. Additionally, I have an elementary
               level of Portuguese, allowing me to engage in basic conversations."
             imageUrl={Idiomas}

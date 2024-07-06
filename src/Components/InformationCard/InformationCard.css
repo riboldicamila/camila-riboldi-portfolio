@@ -1,5 +1,5 @@
 .information-card {
-  width: 300px;
+  width: 280px;
   height: 400px;
   overflow: hidden;
   text-align: center;
@@ -11,7 +11,7 @@
 .information-card-content {
   padding: 16px;
   background-color: white;
-  height: 260px;
+  height: 250px;
   border-radius: 8px 8px 0px 0px;
   box-sizing: border-box;
 }
@@ -29,22 +29,23 @@
 
 .information-card-bottom {
   background-color: orange;
-  height: 150px;
+  height: 120px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 8px;
   box-sizing: border-box;
   position: relative; 
+  border-radius: 0 0 8px 8px;
 }
 
 .information-card-image {
-  height: 80px;
+  height: 70px;
   width: auto;
   border-radius: 4px;
   position: absolute;
   bottom: 10px; 
   right: 10px;
-  height: 120px; 
-  margin-bottom: 45px;
+  height: 100px; 
+  margin-bottom: 30px;
 }

@@ -13,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
+  background-color: #35353596;
   /* background-image: url("../Home/HomeImages/background4.png");
   background-size: cover;
   background-position: center; */
@@ -73,8 +74,19 @@
   opacity: 0.9;
   border-radius: 10px;
   flex-wrap: wrap;
-  margin: 10px 150px 160px;
-  border-bottom: 4px var(--teal) solid;
+  margin: 50px 40px 160px;
+}
+
+.journey-container-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 1px;
+  background-color: rgb(239, 240, 241);
+  background-size: cover;
+  flex-wrap: wrap;
+  margin: 0px 0px 160px;
 }
 
 .journey-card {
@@ -96,7 +108,7 @@
 
 .arrow {
   width: 50px;
-  margin: 20px;
+  margin: 25px;
 }
 
 @media (max-width: 768px) {
