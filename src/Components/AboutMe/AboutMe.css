@@ -17,7 +17,7 @@
   /* background-image: url("../Home/HomeImages/background4.png");
   background-size: cover;
   background-position: center; */
-  height: 200px;
+  height: 220px;
   color: white;
 }
 
@@ -26,7 +26,6 @@
 }
 .about-me-title {
   text-align: center;
-  text-transform: uppercase;
   color: white;
 }
 
@@ -77,7 +76,7 @@
   margin: 50px 40px 160px;
 }
 
-.journey-container-2{
+.journey-container-2 {
   display: flex;
   flex-direction: row;
   justify-content: center;

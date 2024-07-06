@@ -1,18 +1,26 @@
 .information-card {
   width: 280px;
-  height: 400px;
+  height: 330px;
   overflow: hidden;
   text-align: center;
   box-sizing: border-box;
   margin: 10px;
-  position: relative; 
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.information-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .information-card-content {
   padding: 16px;
   background-color: white;
   height: 250px;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0 0;
   box-sizing: border-box;
 }
 
@@ -35,7 +43,7 @@
   align-items: center;
   padding: 8px;
   box-sizing: border-box;
-  position: relative; 
+  position: relative;
   border-radius: 0 0 8px 8px;
 }
 
@@ -44,8 +52,8 @@
   width: auto;
   border-radius: 4px;
   position: absolute;
-  bottom: 10px; 
+  bottom: 10px;
   right: 10px;
-  height: 100px; 
-  margin-bottom: 30px;
+  height: 90px;
+  margin-bottom: 40px;
 }

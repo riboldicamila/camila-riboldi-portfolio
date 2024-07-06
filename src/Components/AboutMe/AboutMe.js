@@ -50,7 +50,7 @@ function AboutMe() {
           />
           <img src={Arrow} alt="Logo" className="arrow" />
           <InformationCard
-            title="Let´s Connect: Spanish | English | Portuguese"
+            title="Let´s Connect"
             text="I am a native Spanish speaker and also hold a C1 level of English
               proficiency, enabling me to fluently communicate both orally and
               in writing. This is certified by TOEFL and IGCSE
