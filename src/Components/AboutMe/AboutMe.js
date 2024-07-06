@@ -5,16 +5,17 @@ import carrousel1 from "./AboutMeImages//web1.jpg";
 import carrousel2 from "./AboutMeImages/web2.jpg";
 import carrousel3 from "./AboutMeImages/web3.jpg";
 
-import Bachelor from "./AboutMeImages/graduation.jpg";
-import Work from "./AboutMeImages/coorporate.jpg";
-import Idea from "./AboutMeImages/idea.png";
-import Idiomas from "./AboutMeImages/idiomas.png";
+import Bachelor from "./AboutMeImages/graduation.png";
+import Work from "./AboutMeImages/idiomas.png";
+import Idea from "./AboutMeImages/idea-2.png";
+import Idiomas from "./AboutMeImages/idiomas-1.png";
 import Arrow from "./AboutMeImages/arrow.png";
 
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
 import ImageWithText from "./ImageWithText";
 import InformationCard from "../InformationCard/InformationCard";
 import Underline from "../AboutMe/AboutMeImages/underline.png";
+import EmailForm from "./EmailForm/EmailForm";
 
 function AboutMe() {
   return (
@@ -67,6 +68,10 @@ function AboutMe() {
               development. I have a great undestanding of team work and dynamics, worked with both in person and online-virtual teams, to maintain and also develop from zero applications."
             imageUrl={Work}
           />
+        </div>
+
+        <div id="email" className="email">
+          <EmailForm />
         </div>
 
         <div className="image-container">

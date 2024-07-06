@@ -54,7 +54,7 @@ export default function Footer() {
             />
           </div>
           <a href="#top" className="top-arrow">
-            <FaArrowUp style={{ color: "#333", fontSize: "20px"}} />
+            <FaArrowUp style={{ color: "#333", fontSize: "20px" }} />
           </a>
         </div>
       </div>
@@ -102,8 +102,11 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <a href="#top" className="back-to-top">
-            Back to Top
+          <a
+            className="back-to-top"
+            onClick={() => scrollToTopAndNavigate("/about-me", "email")}
+          >
+            Contact Me
           </a>
         </div>
       </div>
