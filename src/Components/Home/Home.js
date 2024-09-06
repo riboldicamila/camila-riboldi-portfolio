@@ -60,10 +60,11 @@ function Home() {
       <div className="banner">
         <h2>Worldwide. Based in Buenos Aires, Argentina.</h2>
         <div>
-          My name is Camila. I'm a software developer who specializes in{" "}
-          <span className="highlight">web development - frontend</span>. I
-          understand both the business and the technological perspectives and I
-          work to unify those to deliver the best product to the clients.
+          My name is Camila. I'm a{" "}
+          <span className="highlight">software developer </span>with strong
+          interest in web development - frontend. I understand both the business
+          and the technological perspectives and I work to unify those to
+          deliver the best product to the clients.
         </div>
         <PrimaryButton href="none" className="home-btn" text="Know More" />
       </div>
@@ -82,7 +83,10 @@ function Home() {
                   marginBottom: "10px",
                 }}
               >
-                <CheckCircleOutlineIcon className="custom-tick-icon"  sx={{ fontSize: 20 }} />
+                <CheckCircleOutlineIcon
+                  className="custom-tick-icon"
+                  sx={{ fontSize: 20 }}
+                />
                 <span>{sentence}</span>
               </div>
             ))}
@@ -102,7 +106,10 @@ function Home() {
                   marginBottom: "10px",
                 }}
               >
-                <CheckCircleOutlineIcon className="custom-tick-icon"  sx={{ fontSize: 20 }} />
+                <CheckCircleOutlineIcon
+                  className="custom-tick-icon"
+                  sx={{ fontSize: 20 }}
+                />
                 <span>{sentence}</span>
               </div>
             ))}
