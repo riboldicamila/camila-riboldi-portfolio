@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="contact-info">
           <h2>LET´S CONNECT</h2>
           <div className="decorative-icons">
-            <IconWithText text="cami.riboldi@gmail.com" />
+            {/* <IconWithText text="cami.riboldi@gmail.com" /> */}
             <IconWithText
               text={
                 <Link to="https://www.linkedin.com">
