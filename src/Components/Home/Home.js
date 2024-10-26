@@ -28,7 +28,7 @@ function Home() {
   const sentences = [
     "Team player - understanding both business and tech needs.",
     "Collecting requirements for the application that needs to be developed.",
-    "Estimating time for tasks, especially those related to frontend development.",
+    "Estimating time for tasks.",
     "Planning with agile methodologies in mind, determining what to do in each iteration.",
     "Thinking ahead of the client - considering what functionality is truly needed.",
     "Focusing on UX/UI experience.",
@@ -64,7 +64,7 @@ function Home() {
           <span className="highlight">software developer </span>with strong
           interest in web development - frontend. I understand both the business
           and the technological perspectives and I work to unify those to
-          deliver the best product to the clients.
+          deliver a great end product.
         </div>
         <PrimaryButton href="none" className="home-btn" text="Know More" />
       </div>
