@@ -32,7 +32,7 @@ function MyWork() {
       <div className="knowledge-cards">
         <TextCard
           icon={Diversity2Icon}
-          title={"Teamwork is Essential"}
+          title={"Teamwork"}
           text={
             "My bachelor's degree gave me a solid grasp of how organizations work and why teamwork matters."
           }
