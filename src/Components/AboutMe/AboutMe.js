@@ -28,7 +28,7 @@ function AboutMe() {
           <div>
             Software development, with a strong interest in frontend-UI/UX.
           </div>
-          <div>Aiming to deliver great applications to our users.</div>
+          <div>Aiming to deliver great applications.</div>
         </div>
 
         <div className="journey-container-2">
