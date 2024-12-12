@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-import homePicture from "./HomeImages/home-picture-7.jpg";
+import homePicture from "./HomeImages/background-12.jpg";
 import git from "./HomeImages/git.png";
 import html from "./HomeImages/html.png";
 import scrum from "./HomeImages/scrum.png";
