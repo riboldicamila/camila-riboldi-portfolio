@@ -1,26 +1,20 @@
 :root {
-  --yellow-one: #ffc300;
+  --yellow-one: #ee6719;
   --color-one-opacity: #c28d1a;
   --light-grey: #cccccc;
   --dark-grey: #333333;
   --black: #000000;
   --light-blue: #00c5cc;
   --deep-blue: #003366;
-  --teal:#008080;
+  --teal: #008080;
+  --dark-blue: #081019;
 }
-
-/* Yellow: #FFD700 (Gold)
-Dark Grey: #333333
-Light Grey: #CCCCCC
-Black: #000000 
- background-color: #292323;
-*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 body {

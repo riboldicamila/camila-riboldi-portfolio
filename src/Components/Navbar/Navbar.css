@@ -22,7 +22,7 @@
   width: auto;
   margin-top: 2px;
   height: 75px;
-  margin-left: 5vw;
+  margin-left: 8vw;
 }
 
 .navbar-links {
@@ -43,7 +43,7 @@
 .nav-link:hover {
   border-bottom-color: var(--yellow-one);
   transform: scale(1.1);
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .hamburger-menu {

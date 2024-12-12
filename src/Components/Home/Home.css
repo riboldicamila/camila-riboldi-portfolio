@@ -31,7 +31,7 @@
 
 .text-overlay h2 {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 20px;
   border-bottom: 3px solid transparent;
@@ -55,7 +55,7 @@
   color: white;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  height: 350px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,14 +72,15 @@
 }
 
 .banner h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .banner div {
   margin: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   width: 600px;
+  font-size: 15px;
 }
 
 .banner div .highlight {
@@ -216,10 +217,10 @@
     height: 1400px;
     font-size: 12px;
     align-content: strech;
- }
+  }
 
- .home-tab .secound-banner .card{
-  height: 700px;
-  border-radius: 1px;
- }
+  .home-tab .secound-banner .card {
+    height: 700px;
+    border-radius: 1px;
+  }
 }
