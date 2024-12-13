@@ -33,10 +33,11 @@
 .information-card-text {
   font-size: 14px;
   color: #333;
+  margin-bottom: 5px;
 }
 
 .information-card-bottom {
-  background-color: orange;
+  background-color: #000d1a;
   height: 120px;
   display: flex;
   justify-content: flex-end;

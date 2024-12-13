@@ -106,7 +106,7 @@ export default function Footer() {
             className="back-to-top"
             onClick={() => scrollToTopAndNavigate("/about-me", "email")}
           >
-            Contact Me
+            Contact 
           </a>
         </div>
       </div>
