@@ -9,7 +9,7 @@ import "./MyWork.css";
 
 function MyWorkCard({ image, title, text, findMore }) {
   return (
-    <Card style={{ width: "70%" }} className="home-card">
+    <Card style={{ width: "70%" }} className="project-card">
       <CardActionArea style={{ display: "flex" }}>
         <CardMedia
           component="img"
@@ -23,7 +23,16 @@ function MyWorkCard({ image, title, text, findMore }) {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            style={{
+              textTransform: "uppercase",
+              fontSize: "1rem",
+              fontWeight: "bold",
+            }}
+          >
             {title}
           </Typography>
           <Typography variant="body2" color="text.secondary">

@@ -49,7 +49,7 @@ function Navbar() {
           </Link>
           <PrimaryButton
             href="https://www.linkedin.com/in/camila-riboldi/"
-            text="Linkedin"
+            text="LinkedIn"
           />
         </div>
         <div className="hamburger-menu" onClick={toggleMobileMenu}>

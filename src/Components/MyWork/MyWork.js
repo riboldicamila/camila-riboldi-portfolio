@@ -25,10 +25,6 @@ function MyWork() {
     />
   ) : (
     <div className="my-work-tab">
-      {/* <div className="banner">
-        <h2>Projects </h2>
-      </div> */}
-
       <div className="knowledge-cards">
         <TextCard
           icon={Diversity2Icon}
