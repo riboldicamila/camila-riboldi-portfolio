@@ -4,9 +4,9 @@ import carrousel1 from "./AboutMeImages//web1.jpg";
 import carrousel3 from "./AboutMeImages/web3.jpg";
 
 import Bachelor from "./AboutMeImages/uba-white-logo.png";
-import Work from "./AboutMeImages/idiomas.png";
-import Idea from "./AboutMeImages/idea-2.png";
-import Idiomas from "./AboutMeImages/idiomas-1.png";
+import Work from "./AboutMeImages/work-logo.png";
+import Idea from "./AboutMeImages/logo-skills.png";
+import Idiomas from "./AboutMeImages/language.png";
 import Arrow from "./AboutMeImages/arrow.png";
 
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
@@ -38,7 +38,7 @@ function AboutMe() {
 
         <div className="journey-container-2">
           <InformationCard
-            title="Bachelor in Information Systems from UBA"
+            title="Bachelor's in Information Systems from UBA"
             text="⬻ Ranked 2nd in the QS Latin America University. "
             secoundText=" ⬻ The program spans 5 ½ years and offers a comprehensive journey that merges business management with technological innovation."
             imageUrl={Bachelor}
@@ -56,7 +56,7 @@ function AboutMe() {
           />
           <img src={Arrow} alt="Logo" className="arrow" />
           <InformationCard
-            title="Let´s Connect"
+            title="Languages and Proficiency"
             text="⬻ Native Spanish speaker."
             secoundText="⬻ C1 level English proficiency, enabling fluent communication both orally and in writing, certified by TOEFL and IGCSE English exams."
             thirdText="⬻ Elementary level of Portuguese, allowing engagement in basic conversations."
@@ -65,9 +65,9 @@ function AboutMe() {
           <img src={Arrow} alt="Logo" className="arrow" />
 
           <InformationCard
-            title="Working in corporate"
+            title="Work Experience"
             text="⬻ +2 years of experience working in multinational companies, improving skills in software development. "
-            secoundText= "⬻ Undestanding of team work and dynamics, worked with both in person and online-virtual teams, to maintain and also develop from zero applications."
+            secoundText="⬻ Undestanding of team work and dynamics, worked with both in person and online-virtual teams, to maintain and also develop from zero applications."
             imageUrl={Work}
           />
         </div>
