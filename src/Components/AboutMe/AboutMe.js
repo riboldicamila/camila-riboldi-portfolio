@@ -1,8 +1,6 @@
 import React from "react";
-import "./AboutMe.css";
 
 import carrousel1 from "./AboutMeImages//web1.jpg";
-import carrousel2 from "./AboutMeImages/web2.jpg";
 import carrousel3 from "./AboutMeImages/web3.jpg";
 
 import Bachelor from "./AboutMeImages/graduation.png";
@@ -14,8 +12,9 @@ import Arrow from "./AboutMeImages/arrow.png";
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
 import ImageWithText from "./ImageWithText";
 import InformationCard from "../InformationCard/InformationCard";
-import Underline from "../AboutMe/AboutMeImages/underline.png";
 import EmailForm from "./EmailForm/EmailForm";
+
+import "./AboutMe.css";
 
 function AboutMe() {
   return (
@@ -23,12 +22,18 @@ function AboutMe() {
       <AnimatedLine />
       <div className="about-me-tab">
         <div className="about-me-container">
-          <h2 className="about-me-title"> My journey</h2>
-          {/* <img src={Underline} alt="underline" className="underline-image" /> */}
-          <div>
-            Software development, with a strong interest in frontend-UI/UX.
+          <div className="about-me-presentation">
+            <h2 className="about-me-title"> My journey</h2>
+            <div>
+              Software development working with React <br /> and Python in full
+              stack team.
+            </div>
           </div>
-          <div>Aiming to deliver great applications.</div>
+
+          <div className="image-container">
+            <ImageWithText image={carrousel1} text={"Plan"} />
+            <ImageWithText image={carrousel3} text={"Code"} />
+          </div>
         </div>
 
         <div className="journey-container-2">
@@ -69,14 +74,11 @@ function AboutMe() {
           />
         </div>
 
-        <div id="email" className="email">
+        <div id="email" className="message-container">
+          <div>
+            <ImageWithText image={carrousel1} />
+          </div>
           <EmailForm />
-        </div>
-
-        <div className="image-container">
-          <ImageWithText image={carrousel1} text={"Plan"} />
-          <ImageWithText image={carrousel2} text={"Code"} />
-          <ImageWithText image={carrousel3} text={"Refine"} />
         </div>
       </div>
     </>

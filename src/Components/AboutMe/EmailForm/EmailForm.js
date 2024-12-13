@@ -43,7 +43,7 @@ function EmailForm() {
 
   return (
     <form onSubmit={handleSubmit} className="email-form" id="email-contact">
-      <h2>Contact Me</h2>
+      <h2>Leave a message</h2>
       <div className="form-group">
         <label htmlFor="name">Name:</label>
         <input
