@@ -26,7 +26,7 @@ function MyWork() {
   ) : (
     <div className="my-work-tab">
       <div className="banner">
-        <h2>What I have worked on!</h2>
+        <h2>Projects </h2>
       </div>
 
       <div className="knowledge-cards">
