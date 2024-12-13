@@ -42,7 +42,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 70px;
+  padding: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -86,7 +86,7 @@
     width: 100% !important;
   }
 
-  .my-work-tab{
+  .my-work-tab {
     margin-top: 80px;
   }
 }

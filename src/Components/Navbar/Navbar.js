@@ -44,8 +44,8 @@ function Navbar() {
           <Link to="/about-me" className="nav-link animate__pulse">
             About Me
           </Link>
-          <Link to="/my-work" className="nav-link">
-            Work
+          <Link to="/projects" className="nav-link">
+            Projects
           </Link>
           <PrimaryButton
             href="https://www.linkedin.com/in/camila-riboldi/"

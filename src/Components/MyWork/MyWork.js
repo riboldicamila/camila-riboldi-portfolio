@@ -25,36 +25,34 @@ function MyWork() {
     />
   ) : (
     <div className="my-work-tab">
-      <div className="banner">
+      {/* <div className="banner">
         <h2>Projects </h2>
-      </div>
+      </div> */}
 
       <div className="knowledge-cards">
         <TextCard
           icon={Diversity2Icon}
-          title={"Teamwork"}
+          title="Frontend - UI"
           text={
-            "My bachelor's degree gave me a solid grasp of how organizations work and why teamwork matters."
+            "React. Funcional and class components. Hooks. React Query. Testing with: RTL-Jest"
           }
         />
         <TextCard
           icon={TravelExploreIcon}
-          title={"Don't Limit Yourself"}
+          title="Backend & DB"
           text={
-            "Technology is always evolving. I believe in finding what you love but also staying open to new technologies."
+            "Implementation of services in backend layers, connection to database. Python and SQL."
           }
         />
         <TextCard
           icon={AutoAwesomeIcon}
-          title={"Listening is Key"}
-          text={
-            "Don't build something unnecessary. Understand the real needs first."
-          }
+          title="Agile metodologies"
+          text="Scrum in a 15+ people worldwide team. Using Jira for tracking, integrated with Bitbucket."
         />
         <TextCard
           icon={BrokenImageIcon}
-          title={"Design and Usability"}
-          text={" Know your user, try to break things, then fix them."}
+          title="Design and Usability"
+          text="Past roles mainly focused on frontend and UI improvements."
         />
       </div>
 
