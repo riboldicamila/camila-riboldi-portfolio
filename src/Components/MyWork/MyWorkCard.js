@@ -23,7 +23,11 @@ function MyWorkCard({
           image={image}
           alt="project image"
         />
-        <CardContent>
+        <CardContent
+          sx={{
+            minWidth: "55% !important",
+          }}
+        >
           <div className="project-card-details">
             <div className="project-card-field">
               <strong>Project Name:</strong>
