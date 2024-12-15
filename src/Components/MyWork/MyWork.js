@@ -55,49 +55,36 @@ function MyWork() {
       <div className="card-block">
         <MyWorkCard
           image={swissMedia}
-          title="SwissMedia"
-          text="In this project, you'll find a website created with HTML and CSS, featuring experiments with Sass, Flexbox, and general frontend concepts.
-          To develop this site, I started with wireframes and thoughtfully designed the layout of each tab and page. The final product is deployed and available at GitHub Pages.
-          The project uses several libraries and technologies, including:
-          HTML,
-          CSS,
-          Sass,
-          Bootstrap,
-          Google Fonts,
-          Animate.css.
-          Explore the various features and styles incorporated in this project!"
+          projectName="Swiss Media"
+          technologies="HTML, CSS, Sass, Bootstrap, Google Fonts, Animate.css"
+          purpose="Responsive websites, create your own website design. Basic html & css. Use of diverse libraries."
+          deployment="GitHub Pages"
           findMore={
             "https://riboldicamila.github.io/swissmedia-basic-html-saas/"
           }
         />
         <MyWorkCard
           image={PortfolioProject}
-          title="My portfolio"
-          text="In this project, you'll find a portfolio website created with React and Material UI, showcasing experiments with various frontend technologies and concepts. Is deployed and available on Vercel.
-                The project leverages several libraries and technologies, including:
-                React, Functional Components, Hooks,
-                Material UI,
-                Emotion,
-                GSAP,
-                Animate.css,
-                React Router DOM,
-                React Material UI Carousel,
-                Google Fonts.
-                Explore the various features and styles incorporated in this project and see how different animations and interactions enhance the user experience!"
+          projectName="Projects & Portfolio"
+          technologies="React, Functional Components, Hooks, Material UI, Emotion, GSAP, Animate.css, React Router DOM, React Material UI Carousel, Google Fonts"
+          purpose="Design and build a professional landing page using React, incorporating libraries and routing for a dynamic user experience."
+          deployment="Vercel"
           findMore={"https://camila-riboldi.vercel.app/"}
         />
 
         <MyWorkCard
           image={MinamalisticWeb}
-          title="Minimalistic Portfolio Sample"
-          text="This was a quick project where I focused on creating a minimalistic portfolio using React. No routing was involved, so React Router was not used. I implemented plain CSS along with Bootstrap for styling, and utilized React Icons to enhance the visual elements. This project showcases my ability to build clean, simple, and effective user interfaces."
+          projectName="Minimal Web Design"
+          technologies="React, CSS, Bootstrap, React Icons"
+          purpose="Practice with React, creating a minimalist design and page. Without routing."
+          deployment="Vercel"
           findMore={"https://minimalistic-web-sample.vercel.app/"}
         />
 
         <MyWorkCard
           image={CoorporateProject}
-          title="Corporate Projects"
-          text="In my career, I've worked on corporate projects both with CMS and build from scratch applications. I'm experienced in React, using both functional and class components, and I've used tools like Bootstrap, React Router, and various hooks. I've applied these skills to build functional and user-friendly interfaces for different projects. "
+          projectName="Corporate projects"
+          technologies="React, Css, Internal Companies owned component libraries based on bootstrap, Python, SQL, Scrum, Jira, Bitbucket. CD/CI (pipelines automatization tools such as jenkins). "
           findMore={"https://camila-riboldi.vercel.app/"}
         />
       </div>

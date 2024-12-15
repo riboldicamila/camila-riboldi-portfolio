@@ -59,15 +59,13 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-quote">
-        <div>
-          Engineering user-friendly solutions.
-        </div>
+        <div>Engineering user-friendly solutions.</div>
       </div>
       <div className="footer-container">
         <div className="contact-info">
           <h2>LET´S CONNECT</h2>
           <div className="decorative-icons">
-            {<IconWithText text="cami.riboldi@gmail.com" /> }
+            {<IconWithText text="cami.riboldi@gmail.com" />}
             <IconWithText
               text={
                 <Link to="https://www.linkedin.com">
@@ -94,8 +92,8 @@ export default function Footer() {
             />
             <IconWithText
               text={
-                <span onClick={() => scrollToTopAndNavigate("/my-work")}>
-                  Work
+                <span onClick={() => scrollToTopAndNavigate("/projects")}>
+                  Projects
                 </span>
               }
             />
@@ -106,7 +104,7 @@ export default function Footer() {
             className="back-to-top"
             onClick={() => scrollToTopAndNavigate("/about-me", "email")}
           >
-            Contact 
+            Contact
           </a>
         </div>
       </div>

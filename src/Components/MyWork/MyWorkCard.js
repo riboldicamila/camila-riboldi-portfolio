@@ -2,42 +2,55 @@ import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 
 import "./MyWork.css";
 
-function MyWorkCard({ image, title, text, findMore }) {
+function MyWorkCard({
+  image,
+  projectName,
+  technologies,
+  purpose,
+  deployment,
+  findMore,
+}) {
   return (
-    <Card style={{ width: "70%" }} className="project-card">
-      <CardActionArea style={{ display: "flex" }}>
+    <Card className="project-card">
+      <CardActionArea className="card-action-area" style={{ display: "flex" }}>
         <CardMedia
           component="img"
-          style={{
-            maxWidth: "50%",
-            minWidth: "50%",
-            objectFit: "cover",
-            height: "100%",
-          }}
+          className="project-card-image"
           image={image}
-          alt="green iguana"
+          alt="project image"
         />
         <CardContent>
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="div"
-            style={{
-              textTransform: "uppercase",
-              fontSize: "1rem",
-              fontWeight: "bold",
-            }}
-          >
-            {title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {text}
-          </Typography>
+          <div className="project-card-details">
+            <div className="project-card-field">
+              <strong>Project Name:</strong>
+              <div>{projectName}</div>
+            </div>
+            <div className="project-card-field">
+              <strong>Technologies Used:</strong>
+              <div>{technologies}</div>
+            </div>
+            {purpose ? (
+              <div className="project-card-field">
+                <strong>Purpose/Aim:</strong>
+                <div>{purpose}</div>
+              </div>
+            ) : (
+              ""
+            )}
+
+            {deployment ? (
+              <div className="project-card-field">
+                <strong>Deployment:</strong>
+                <div>{deployment}</div>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
           <CardActions>
             <Button
               size="small"
