@@ -131,10 +131,27 @@
   .journey-container-2 {
     margin: 5px;
     margin-bottom: 80px;
-    padding: 5px;
+    padding: 50px 1px;
   }
 
   .about-me-tab {
     margin-top: 80px;
+  }
+
+  .about-me-container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    margin-top: 25px;
+    flex-wrap: nowrap;
+  }
+
+  .message-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
   }
 }
