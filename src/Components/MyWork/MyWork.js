@@ -54,16 +54,6 @@ function MyWork() {
 
       <div className="card-block">
         <MyWorkCard
-          image={swissMedia}
-          projectName="Swiss Media"
-          technologies="HTML, CSS, Sass, Bootstrap, Google Fonts, Animate.css"
-          purpose="Responsive websites, create your own website design. Basic html & css. Use of diverse libraries."
-          deployment="GitHub Pages"
-          findMore={
-            "https://riboldicamila.github.io/swissmedia-basic-html-saas/"
-          }
-        />
-        <MyWorkCard
           image={PortfolioProject}
           projectName="Projects & Portfolio"
           technologies="React, Functional Components, Hooks, Material UI, Emotion, GSAP, Animate.css, React Router DOM, React Material UI Carousel, Google Fonts"
@@ -79,6 +69,17 @@ function MyWork() {
           purpose="Practice with React, creating a minimalist design and page. Without routing."
           deployment="Vercel"
           findMore={"https://minimalistic-web-sample.vercel.app/"}
+        />
+
+        <MyWorkCard
+          image={swissMedia}
+          projectName="Swiss Media"
+          technologies="HTML, CSS, Sass, Bootstrap, Google Fonts, Animate.css"
+          purpose="Responsive websites, create your own website design. Basic html & css. Use of diverse libraries."
+          deployment="GitHub Pages"
+          findMore={
+            "https://riboldicamila.github.io/swissmedia-basic-html-saas/"
+          }
         />
 
         <MyWorkCard
