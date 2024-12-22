@@ -11,6 +11,7 @@ import WorkInProgress from "../WorkInProgress/WorkInProgress";
 import PortfolioProject from "../MyWork/portfolio-project.png";
 import CoorporateProject from "../MyWork/coding.jpg";
 import MinamalisticWeb from "../MyWork/minimalistic-web.png";
+import DailyPanel from "../MyWork/daily-panel.png";
 
 import "./MyWork.css";
 
@@ -53,6 +54,15 @@ function MyWork() {
       </div>
 
       <div className="card-block">
+        <MyWorkCard
+          image={DailyPanel}
+          projectName="Daily Panel"
+          technologies="React, Functional Components, API connections, Axios, Hooks, Material UI, React Router DOM, Google Fonts"
+          purpose="App in progress. "
+          deployment="Vercel"
+          findMore={"https://daily-panel-rosy.vercel.app/"}
+        />
+
         <MyWorkCard
           image={PortfolioProject}
           projectName="Projects & Portfolio"
