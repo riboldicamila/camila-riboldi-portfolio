@@ -57,7 +57,7 @@ function MyWork() {
         <MyWorkCard
           image={DailyPanel}
           projectName="Daily Panel"
-          technologies="React, Functional Components, API connections, Axios, Hooks, Material UI, React Router DOM, Google Fonts"
+          technologies="React, Functional Components, API connections, Firebase authentication, Axios, Hooks, Material UI, React Router DOM, Google Fonts"
           purpose="App in progress. "
           deployment="Vercel"
           findMore={"https://daily-panel-rosy.vercel.app/"}
@@ -76,7 +76,7 @@ function MyWork() {
           image={MinamalisticWeb}
           projectName="Minimal Web Design"
           technologies="React, CSS, Bootstrap, React Icons"
-          purpose="Practice with React, creating a minimalist design and page. Without routing."
+          purpose="Practice with React, creating a minimalist design and page. Without routing. Not responsive."
           deployment="Vercel"
           findMore={"https://minimalistic-web-sample.vercel.app/"}
         />
