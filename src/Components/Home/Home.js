@@ -28,28 +28,19 @@ function Home() {
   return (
     <div className="home-tab">
       <div className="image-with-text-overlay">
-        <div className="text-content">
-          <img
-            src={homePicture}
-            alt="Background"
-            className="background-image"
-          />
-          <div className="text-overlay animate__animated animate__fadeInLeft">
-            <h2>Crafting Solutions ⤍ developer</h2>
-            <h3>Get to know my journey</h3>
-          </div>
+        <div className="text-overlay animate__animated animate__fadeInLeft">
+          <h2>Crafting Solutions ⤍ developer</h2>
+          <h3>Get to know my journey</h3>
         </div>
-        <img
-          src={roundedPicture}
-          alt="My Journey"
-          className="rounded-picture-right"
-        />
-        <img
-          src={roundedPictureSecond}
-          alt="My Journey"
-          className="rounded-picture"
-        />
+        <div className="image-container-home">
+          <img
+            src={roundedPicture}
+            alt="My Journey"
+            className="rounded-picture-right"
+          />
+        </div>
       </div>
+
       <div className="banner">
         <h2>Worldwide. Based in Argentina & Italy.</h2>
         <div>
