@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 
-import homePicture from "./HomeImages/background-12.jpg";
+import homePicture from "./HomeImages/background-14.jpg";
+import roundedPicture from "./HomeImages/cv-sharp.png";
+import roundedPictureSecond from "./HomeImages/secound-pic.jpg";
 import git from "./HomeImages/git.png";
 import html from "./HomeImages/html.png";
 import scrum from "./HomeImages/scrum.png";
@@ -26,11 +28,27 @@ function Home() {
   return (
     <div className="home-tab">
       <div className="image-with-text-overlay">
-        <img src={homePicture} alt="Background" className="background-image" />
-        <div className="text-overlay animate__animated animate__fadeInLeft">
-          <h2>Crafting Solutions ⤍ developer</h2>
-          <h3> Get to know my journey</h3>
+        <div className="text-content">
+          <img
+            src={homePicture}
+            alt="Background"
+            className="background-image"
+          />
+          <div className="text-overlay animate__animated animate__fadeInLeft">
+            <h2>Crafting Solutions ⤍ developer</h2>
+            <h3>Get to know my journey</h3>
+          </div>
         </div>
+        <img
+          src={roundedPicture}
+          alt="My Journey"
+          className="rounded-picture-right"
+        />
+        <img
+          src={roundedPictureSecond}
+          alt="My Journey"
+          className="rounded-picture"
+        />
       </div>
       <div className="banner">
         <h2>Worldwide. Based in Argentina & Italy.</h2>
