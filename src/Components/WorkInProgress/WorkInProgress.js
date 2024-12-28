@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { useSpring, animated } from "react-spring";
+import React  from "react";
+import { animated } from "react-spring";
 import LinearProgress from "@mui/joy/LinearProgress";
 
 import "../WorkInProgress/WorkInProgress.css";
-import AnimatedLine from "../AnimatedLine/AnimatedLine";
 
 function WorkInProgress({ text }) {
   return (
