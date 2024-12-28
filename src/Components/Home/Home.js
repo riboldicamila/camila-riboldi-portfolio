@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 
-import homePicture from "./HomeImages/background-14.jpg";
 import roundedPicture from "./HomeImages/cv-sharp.png";
-import roundedPictureSecond from "./HomeImages/secound-pic.jpg";
 import git from "./HomeImages/git.png";
 import html from "./HomeImages/html.png";
 import scrum from "./HomeImages/scrum.png";

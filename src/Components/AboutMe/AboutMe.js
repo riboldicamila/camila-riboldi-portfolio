@@ -6,7 +6,7 @@ import carrousel3 from "./AboutMeImages/web3.jpg";
 import Bachelor from "./AboutMeImages/uba-white-logo.png";
 import Work from "./AboutMeImages/work-logo.png";
 import Idea from "./AboutMeImages/logo-skills.png";
-import Idiomas from "./AboutMeImages/language.png";
+import Idiomas from "./AboutMeImages/language-logo.png";
 import Arrow from "./AboutMeImages/arrow.png";
 
 import AnimatedLine from "../AnimatedLine/AnimatedLine";
@@ -36,7 +36,7 @@ function AboutMe() {
           </div>
         </div>
 
-        <div className="journey-container-2">
+        <div className="journey-container">
           <InformationCard
             title="Bachelor's in Information Systems from UBA"
             text="⬻ Ranked 2nd in the QS Latin America University. "

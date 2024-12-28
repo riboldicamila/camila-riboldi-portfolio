@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { FaArrowUp, FaGlobe } from "react-icons/fa";
+import { ReactCountryFlag } from "react-country-flag";
 import IconWithText from "../IconText/IconText";
-import Flag, { ReactCountryFlag } from "react-country-flag";
 
 import "./Footer.css";
 

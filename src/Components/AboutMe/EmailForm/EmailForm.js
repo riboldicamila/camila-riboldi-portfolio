@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+
 import "./EmailForm.css";
 
 function EmailForm() {
@@ -50,7 +51,7 @@ function EmailForm() {
           type="text"
           id="name"
           name="name"
-          value={formData.name}
+          value={formData["name"]}
           onChange={handleChange}
           required
         />
@@ -61,7 +62,7 @@ function EmailForm() {
           type="email"
           id="email"
           name="email"
-          value={formData.email}
+          value={formData["email"]}
           onChange={handleChange}
           required
         />
@@ -71,7 +72,7 @@ function EmailForm() {
         <textarea
           id="message"
           name="message"
-          value={formData.message}
+          value={formData["message"]}
           onChange={handleChange}
           required
         />
