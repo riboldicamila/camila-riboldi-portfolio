@@ -239,4 +239,8 @@
     height: 700px;
     border-radius: 1px;
   }
+
+  .rounded-picture-right {
+    visibility: hidden;
+  }
 }
