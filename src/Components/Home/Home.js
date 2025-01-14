@@ -30,13 +30,13 @@ function Home() {
           <h2>Crafting Solutions ⤍ developer</h2>
           <h3>Get to know my journey</h3>
         </div>
-        <div className="image-container-home">
+        {/* <div className="image-container-home">
           <img
             src={roundedPicture}
             alt="My Journey"
             className="rounded-picture-right"
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="banner">
