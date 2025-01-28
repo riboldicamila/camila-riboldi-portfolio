@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { FaArrowUp, FaGlobe } from "react-icons/fa";
 import { ReactCountryFlag } from "react-country-flag";
 import IconWithText from "../IconText/IconText";
@@ -71,6 +72,13 @@ export default function Footer() {
               text={
                 <Link to="https://www.linkedin.com">
                   <LinkedInIcon />
+                </Link>
+              }
+            />
+            <IconWithText
+              text={
+                <Link to="https://github.com/riboldicamila">
+                  <GitHubIcon />
                 </Link>
               }
             />
