@@ -21,3 +21,45 @@ This is my first portfolio website built with React.js. As a software developer,
 - **React Spring**: For creating fluid and interactive animations.
 - **Testing**: The app uses **Jest** and **React Testing Library** for unit and integration tests.
 
+## 🔷 Good practises I should be following (refactors to be done)
+
+### **Folder Structure**
+Organized with `/components`, `/pages`, `/hooks`, `/services`, `/store`, and `/utils` .
+
+### **Naming Conventions**
+Use PascalCase for components (UserCard.tsx), camelCase for hooks (useAuth.ts), and UPPER_CASE for constants.
+
+### **Imports Organization**
+React first, third-party libraries second, absolute imports third, relative imports fourth, and styles last.
+
+## State Management
+
+### **Local State**
+Uses useState and useReducer for local state.
+
+### **Global State**
+Uses Zustand, Redux, or Context API for global state management.
+
+### **React Query**
+For efficient API data fetching, caching, and state synchronization.
+
+## Performance Optimization
+
+### **Memoization**
+Uses useMemo for expensive calculations, useCallback to avoid inline functions, and React.memo for component re-renders.
+
+## Application Architecture
+
+### **API Calls**
+Centralized in `/services/api.ts` and handled with async functions or React Query for caching.
+
+### **Testing**
+The app uses Jest and React Testing Library for unit and integration tests, and Cypress for end-to-end testing.
+
+### **ESLint & Prettier**
+Ensures code quality and consistent formatting with strict linting rules.
+
+## Deployment & Configuration
+
+### **Environment Variables**
+Uses .env to store secrets and API keys (REACT_APP_API_URL).
